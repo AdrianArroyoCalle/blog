@@ -1,0 +1,22 @@
+# Dependencies
+markdown: redcarpet
+pygments: true
+
+# Permalinks
+permalink: pretty
+
+# Setup
+title: Adrian Arroyo's Blog
+tagline: If everybody is thinking alike, then somebody isn't thinking - George S. Patton
+url: http://adrianarroyocalle.github.io/blog
+paginate: 1
+baseurl: /
+author:
+  name: Adrián Arroyo Calle
+  url: https://adrianarroyocalle.github.io
+  email: adrian.arroyocalle@gmail.com
+
+# Custom vars
+version: 1.0.0
+github:
+  repo: https://github.com/AdrianArroyoCalle/blog
