@@ -6,3 +6,6 @@ rvm:
  - jruby-head
 script: bundle exec jekyll build
 install: bundle install
+branches:
+ only:
+  - gh-pages
