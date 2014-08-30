@@ -1,0 +1,10 @@
+<!-- Gist -->
+<!-- Call with {% include gist.html id="ID" file=""(optional) %} -->
+
+<div class="gist">
+	{% if include.file %}
+		<script src="https://gist.github.com/{{ include.id }}.js=file={{ include.file }}"></script>
+	{% else %}
+		<script src="https://gist.github.com/{{ include.id }}.js"></script>
+	{% endif %}
+</div>

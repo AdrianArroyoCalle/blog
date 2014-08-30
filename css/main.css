@@ -1,0 +1,32 @@
+/* CSS File for Adrian Arroyo Jekyll Blog */
+
+body{
+	background-color: rgb(156,236,156);
+}
+div.related{
+	border-color: green;
+	border-style: groove;
+	border-width: 7px;
+}
+img{
+	max-width: calc(100% - 14px);
+	border-width: 7px;
+	border-style: groove;
+	border-color: black;
+	
+}
+.masthead{
+	/*max-width: calc(100% - 14px);*/
+	border-width: 7px;
+	border-style: groove;
+	border-color: grey;
+}
+.masthead a{
+	color: green;
+	background-color: white;
+	border-style: solid;
+	border-color: white;
+	text-decoration: none;
+	border-radius: 4px;
+	
+}
