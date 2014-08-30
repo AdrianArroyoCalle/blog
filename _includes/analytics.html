@@ -1,19 +1,23 @@
 <div id="analytics-code">
 	<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
 	<link rel="stylesheet" type="text/css" href="http://assets.cookieconsent.silktide.com/current/style.min.css"/>
-	<script type="text/javascript" src="http://assets.cookieconsent.silktide.com/current/plugin.min.js"></script>
-	<script type="text/javascript">
-	// <![CDATA[
-	cc.initialise({
-		cookies: {
-			analytics: {}
-		},
-		settings: {
-			consenttype: "explicit",
-			style: "light"
-		}
+	<script>
+	var script=document.createElement("script");
+	script.src="http://assets.cookieconsent.silktide.com/current/plugin.min.js";
+	script.type="text/javascript";
+	script.async=1;
+	document.head.appendChild(script);
+	script.addEventListener("load",function(){
+		cc.initialise({
+			cookies: {
+				analytics: {}
+			},
+			settings: {
+				consenttype: "explicit",
+				style: "light"
+			}
+		});
 	});
-	// ]]>
 	</script>
 	<!-- End Cookie Consent plugin -->
 	<script type="text/plain" class="cc-onconsent-analytics">
