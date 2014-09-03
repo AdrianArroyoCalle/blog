@@ -13,7 +13,7 @@ extern "C" {
 
 <br />Ahora en el ejemplo voy a usar una función main para no liarnos y usar solo C, pero eso serán los pasos a seguir si tienes C++.&nbsp; Creamos el fichero con extensión .c y escribimos la función main(). Ahora abriremos el archivo de audio con la librería encargada de decodificar el audio, libsndfile. Después inicializamos PortAudio y obtenemos el dispositivo de audio por defecto (en el caso de mi Ubuntu, es ALSA). Configuramos el dispositivo con los datos que tenemos del fichero. Abrimos un stream de PortAudio que leerá el archivo. Esta función necesita dos funciones de callbak que se crean más arriba. La principal tiene como objetivo leer el fichero más y la otra hacer algo cuando termine el fichero (se puede dejar vacía). En la de leer el fichero tenemos que tener en cuenta si el equipo es Mono o Estéreo. Yo no he llegado a saber como detectarlo, así que hago la multiplicación por 2 para el estéreo. Luego en el flujo principal iniciamos el stream, sonará, esperamos 10 segundos, paramos y cerramos el stream. Finalmente cerramos el fichero de audio y deshabilitamos PortAudio. Fácil y sencillo. Ahora el código:<br />
 
-{% highlight c++ %}
+{% highlight c++ linenos %}
 #include "portaudio.h"
 #include "sndfile.h"
 
