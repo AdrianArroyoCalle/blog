@@ -2,11 +2,13 @@
 layout: default
 ---
 
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+  <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
-  {{ content }}
-</div>
+  <div itemprop="text">
+	{{ content }}
+  </div>
+</article>
 
 <div class="related">
   <h2>Entradas relacionadas</h2>

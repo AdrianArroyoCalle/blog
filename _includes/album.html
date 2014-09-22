@@ -1,0 +1,11 @@
+<!-- Gist -->
+<!-- Call with {% include album.html album="Twin Peaks Soundtrack" cover="{{ site.baseurl }}images/covers/twin-peaks.png" tracks="11" artist="Angelo Badalamenti"%} -->
+
+<div class="album" itemscope itemtype="http://schema.org/MusicAlbum">
+	<h1 itemprop="name">{{ include.album }}</h1>
+	<img src="{{ include.cover }}" itemprop="image" />
+	<meta content="{{ include.tracks }}" itemprop="numTracks" />
+	<h2 itemprop="byArtist" itemscope itemtype="http://schema.org/MusicGroup">
+		<span itemprop="name">{{ include.artist }}</span>
+	</h2>
+</div>
