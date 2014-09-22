@@ -1,5 +1,13 @@
 /* CSS File for Adrian Arroyo Jekyll Blog */
 
+#bg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+	opacity: 0.2;
+}
 body{
 	background-color: rgb(156,236,156);
 }
