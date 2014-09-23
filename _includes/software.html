@@ -1,0 +1,28 @@
+<!-- Software application -->
+<!-- Call with {% include software.html name="Norzarea" url="http://adrian...hub.io" author="Adrián Arroyo" logo="NO.png" %} -->
+
+<div class="software" itemscope itemtype="http://schema.org/SoftwareApplication">
+	<h1 itemprop="name">{{ include.name }}</h1>
+	<img src="{{ include.logo }}" itemprop="image" alt="Logo"/>
+	<a href="{{ include.url }}" itemprop="url">{{ include.url }}</a>
+	
+	{% if include.version %}
+		<span itemprop="softwareVersion">{{ include.version }}</span>
+	{% endif %}
+	
+	{% if include.os %}
+		<span itemprop="operatingSystem">{{ include.os }}</span>
+	{% endif %}
+	
+	<div itemprop="author" itemscope itemtype="http://schema.org/Person">
+		<span itemprop="name">{{ include.author }}</span>
+	</div>
+	
+	{% if include.year %}
+		<span itemprop="copyrightYear">{{ include.year }}</span>
+	{% endif %}
+		
+	{% if include.keywords %}
+		<span itemprop="keywords">{{ include.keywords }}</span>
+	{% endif %}
+</div>
