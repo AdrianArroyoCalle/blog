@@ -1,9 +1,8 @@
 <!-- Software application -->
-<!-- Call with {% include software.html name="Norzarea" url="http://adrian...hub.io" author="Adrián Arroyo" logo="NO.png" %} -->
 
 <div class="software" itemscope itemtype="http://schema.org/SoftwareApplication">
 	<h1 itemprop="name">{{ include.name }}</h1>
-	<img src="{{ include.logo }}" itemprop="image" alt="Logo"/>
+	<img src="{{ site.baseurl }}{{ include.logo }}" itemprop="image" alt="Logo"/>
 	<a href="{{ include.url }}" itemprop="url">{{ include.url }}</a>
 	
 	{% if include.version %}
