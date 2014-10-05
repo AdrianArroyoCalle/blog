@@ -1,6 +1,12 @@
 ---
 layout: post
 title: La Odisea de una aplicación comercial hecha en Ogre y CEGUI
+keywords:
+ - blogstack
+ - ogre
+ - cegui
+ - linux
+ - paqueteria
 ---
 
 Últimamente he estado concentrado en una tarea que considero extenuante, por la falta de información, y por la abundancia de respuestas que no aportan nada al caso. El dilema en cuestión es la distribución de binarios en Linux de una aplicación privativa, concretamente un juego hecho en [OGRE](http://ogre3d.org) y [CEGUI](http://cegui.org.uk). Y la verdad es que la odisea es larga. Así que he decidido comparar todas las opciones, sus pros y sus contras.
