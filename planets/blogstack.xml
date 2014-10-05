@@ -28,3 +28,4 @@ layout: nil
 		{% endif %}
 	 {% endfor %}
  {% endfor %}
+</feed>
