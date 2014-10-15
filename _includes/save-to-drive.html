@@ -1,0 +1,16 @@
+<div id="save-to-drive">
+	<div class="g-savetodrive"
+	   data-src="{{ include.src }}"
+	   data-filename="{{ include.filename }}"
+	   data-sitename="{{ site.name }}">
+	</div>
+	<script class="cookie" type="text/plain">
+	var script=document.createElement("script");
+	script.src="https://apis.google.com/js/platform.js";
+	script.async=true;
+	script.addEventListener("load",function(){
+		
+	});
+	document.head.appendChild(script);
+	</script>
+</div>
