@@ -3,6 +3,6 @@ layout: default
 title: About
 ---
 
-#About
+# Acerca de mí
 
-Hi, my name is Adrián Arroyo and this is my personal blog. Before this, I've used Blogger, but I've decided to change the blog to a platform where I can get more control.
+Hola, mi nombre es Adrián Arroyo Calle. Soy de España y este es mi blog donde hablo de lo que se me pasa por la cabeza. [¿Quizá te interese ver el sitio entero?](http://adrianarroyocalle.github.io)
