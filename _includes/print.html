@@ -1,0 +1,13 @@
+<div id="google-cloud-print">
+	<div id="print_button_container"></div>
+	<script class="cookie" type="text/plain">
+	var script=document.createElement("script");
+	script.src="https://www.google.com/cloudprint/client/cpgadget.js";
+	script.addEventListener("load",function(){
+		var gadget=new cloudprint.Gadget();
+		gadget.setPrintButton(cloudprint.Gadget.createDefaultPrintButton("print_button_container"));
+		gadget.setPrintDocument("url",{{ page.title }},{{ site.baseurl }}{{ page.url }});
+	});
+	document.head.appendChild(script);
+	</script>
+</div>
