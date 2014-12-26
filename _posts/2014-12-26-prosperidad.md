@@ -42,6 +42,8 @@ Este 2014 he aprendido nuevas tecnologías que creo que podrán tener alguna uti
 
 La MEMEManía alcanzó un gran esplendor. Tanto tiempo perdido haciendo memes... Pero alguno hay bastante graciosete que aun hoy me hacen reír.
 
+![Dogma 42]({{ site.baseurl }}images/Dogma42.png)
+
 
 # Cultura
 
@@ -72,6 +74,8 @@ Si avanzamos más podemos mencionar [El Quark y el Jaguar]() de Murray Gell-Man,
 ![El Quark y el Jaguar: Aventuras entre lo simple y lo complejo]({{ site.baseurl }}images/ElQuarkYElJaguar.jpg)
 
 Si quieres hacer pasar un mal rato a vuestros enemigos recomendadle Paz en la Guerra de Miguel de Unamuno. Lo siento, pero es pesadísimo de leer. Sé que Unamuno está considerado un gran autor de la generación del 98 pero con esta obra no sé que pensar de él.
+
+![Miguel de Unamuno]({{ site.baseurl }}images/MiguelDeUnamuno.png)
 
 Un buen libro que seguro os dará algo que pensar es [El Conde Lucanor](http://www.ciudadseva.com/textos/cuentos/esp/juanma/lucanor/lucanor.htm) de Juan Manual
 
