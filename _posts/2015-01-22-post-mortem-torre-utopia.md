@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Post Mortem: Torre Utopía
+title: Post Mortem de Torre Utopía
 description: Análisis de Torre Utopía, lo que fue bien y lo que fue mal
 keywords:
  - blogstack
