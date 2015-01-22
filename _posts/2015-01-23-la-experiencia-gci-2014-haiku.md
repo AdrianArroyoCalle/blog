@@ -37,6 +37,7 @@ La tarea consistía en reusar cierto código de una aplicación de tareas para c
 
 # Haiku EGL
 [EGL](http://es.wikipedia.org/wiki/EGL) es una API del [Khronos Group](http://khronos.org) para definir _superficies_ sobre las que operar con otras APIs de Khronos Group, entre ellas OpenGL y OpenVG. EGL se ha usado sobre todo en móviles pero el salto a escritorio es inminente (Wayland y Mir dependen de EGL para funcionar). La API es teóricamente multiplataforma aunque en la práctica hay que modificar el código si usamos las X11 o Wayland o en este caso Haiku. La tarea consiste en portar EGL de manera que funcione en Haiku como wrapper de BGLView. La tarea requería modificar código de Mesa 10. Tuve muchos problemas en esta tarea: documentación nula, características exclusivas de C99 (y que no están en C++), desconocimiento de parte del sistema gráfico tanto en Linux como en Haiku, desconocimiento de SCons, etc. Esto me llevó a implementar EGL en un principio como un driver DRM2. Pero luego descubrí que DRM2 solo funciona en Linux. Así que tuve que escribir un driver desde 0. Este crea una configuración placebo y realiza operaciones básicas como crear una ventana y hacer el intercambio de búferes.
+
 # Haikuports
 
 El resto de tareas consistían en portar software normal y corriente a Haiku. He portado con más o menos dificultad:
