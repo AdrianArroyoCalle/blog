@@ -1,4 +1,4 @@
-- - -
+---
 layout: post
 title: La experiencia GCI 2014 con Haiku
 description: Resumen de mi experiencia en el GCI 2014 con Haiku, la organización que elegí
@@ -18,7 +18,7 @@ keywords:
  - haikutodo
  - blogstack
  - linux
-- - -
+---
 
 El día 1 de diciembre comenzaba el [Google Code-In 2014](http://www.google-melange.com/gci/homepage/google/gci2014) y hasta el 19 de enero pude trabajar en la organización que había elegido, en este caso Haiku, como el año anterior. 
 
