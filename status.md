@@ -94,8 +94,9 @@ Status
 		<td><img src="http://img.shields.io/github/forks/{{ project.services.github }}.svg" alt="GitHub forks"></td>
 		<td><img src="http://img.shields.io/github/stars/{{ project.services.github }}.svg" alt="GitHub stars"></td>
 		<td><img src="http://img.shields.io/badge/license-{{ project.license }}-blue.svg" alt="License"></td>
-		<td><img src="http://img.shields.io/badge/os-{{ project.services.os }}-green.svg" alt="Operating System"></td>
-		<td><img src="http://img.shields.io/badge/scm-{{ project.services.scm }}-orange.svg" alt="SCM"></td>
+		<td><img src="http://img.shields.io/badge/language-{{ project.lang }}-yellow.svg" alt="Language"></td>
+		<td><img src="http://img.shields.io/badge/os-{{ project.os }}-green.svg" alt="Operating System"></td>
+		<td><img src="http://img.shields.io/badge/scm-{{ project.scm }}-orange.svg" alt="SCM"></td>
 	</tr>
 {% endfor %}
 </table>

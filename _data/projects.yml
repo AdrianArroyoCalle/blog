@@ -4,6 +4,7 @@ projects:
   url: http://adrianarroyocalle.github.io/firefox-addons
   description: My own made addons for Firefox
   license: GPL 2.0
+  lang: javascript
   os: Firefox
   scm: git
   services:
