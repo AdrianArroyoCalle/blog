@@ -1,0 +1,10 @@
+projects:
+ - 
+  name: firefox-addons
+  url: http://adrianarroyocalle.github.io/firefox-addons
+  description: My own made addons for Firefox
+  services:
+   travis: AdrianArroyoCalle/firefox-addons
+   appveyor: 
+   drone:
+   github: AdrianArroyoCalle/firefox-addons
