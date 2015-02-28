@@ -9,6 +9,7 @@ keywords:
  - componentes
  - sistemas-operativos
  - javascript
+ - blogstack
 ---
 
 > ___Esta entrada la he realizado originalmente para el blog [DesdeLinux](http://blog.desdelinux.net)___
