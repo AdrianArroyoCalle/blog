@@ -11,19 +11,19 @@ keywords:
  - javascript
 ---
 
-> Esta entrada la he realizado originalmente para el blog [DesdeLinux](http://blog.desdelinux.net)
+> ___Esta entrada la he realizado originalmente para el blog [DesdeLinux](http://blog.desdelinux.net)___
 
 ![Esquema de D-Bus]({{ site.baseurl }}images/dbus.png)
 
-Si llevas algún tiempo en Linux quizás te hayas llegado a preguntar que es D-Bus. D-Bus es un componente incorporado no hace mucho a las distribuciones de escritorio en Linux que previsiblemente jugará un papel muy importante para la programación en Linux.
+Si llevas algún tiempo en Linux quizás te hayas llegado a preguntar que es [D-Bus](http://dbus.freedesktop.org). D-Bus es un componente incorporado no hace mucho a las distribuciones de escritorio en Linux que previsiblemente jugará un papel muy importante para la programación en Linux.
 
 ## ¿Qué es D-Bus?
 
-D-Bus es un sistema de comunicación entre aplicaciones de muy diverso origen. Con este sistema podremos llamar incluso a aplicaciones privativas (si estas implementan D-Bus). No juega el mismo papel que una librería pues una librería no es un programa independiente y la librería forma parte de tu ejecutable. La idea de D-Bus está inspirada en los objectos OLE, COM y ActiveX de Windows. Los objetos COM de Windows ofrecen una manera sencilla de llamar a cualquier programa desde otro programa llegando incluso a poder incrustarse visualmente uno dentro de otro sin necesidad de usar el mismo lenguaje de programación. D-Bus no llega tan lejos pero ofrece esa comunicación de la que UNIX carecía.
+D-Bus es un sistema de comunicación entre aplicaciones de muy diverso origen. Con este sistema podremos llamar incluso a aplicaciones privativas (si estas implementan D-Bus). No juega el mismo papel que una librería pues una librería no es un programa independiente y la librería forma parte de tu ejecutable. La idea de D-Bus está inspirada en los objectos OLE, [COM](http://es.wikipedia.org/wiki/Component_Object_Model) y ActiveX de [Windows](http://windows.com). Los objetos COM de Windows ofrecen una manera sencilla de llamar a cualquier programa desde otro programa llegando incluso a poder incrustarse visualmente uno dentro de otro sin necesidad de usar el mismo lenguaje de programación. D-Bus no llega tan lejos pero ofrece esa comunicación de la que UNIX carecía.
 
 ## ¿Por qué es importante D-Bus?
 
-D-Bus es importante dada la gran diversidad de lenguajes que pueden funcionar en Linux y la gran diversidad también de librerías. Pongamos un ejemplo práctico. Yo quiero mandar una notificación al sistema notify-osd de Ubuntu desde mi aplicación en Node.js. Primero tendría que ver que librería ofrece esa funcionalidad en el sistema, libnotify en este caso, y después debería hacer unos bindings para poder llamar la librería programada en C desde JavaScript. Además imaginemos que queremos hacer funcionar nuestra aplicación con un escritorio que no usa libnotify para las notificaciones.
+D-Bus es importante dada la gran diversidad de lenguajes que pueden funcionar en Linux y la gran diversidad también de librerías. Pongamos un ejemplo práctico. Yo quiero mandar una notificación al sistema notify-osd de [Ubuntu](http://ubuntu.com) desde mi aplicación en Node.js. Primero tendría que ver que librería ofrece esa funcionalidad en el sistema, libnotify en este caso, y después debería hacer unos bindings para poder llamar la librería programada en C desde JavaScript. Además imaginemos que queremos hacer funcionar nuestra aplicación con un escritorio que no usa libnotify para las notificaciones.
 
 ## Usando D-Bus
 
@@ -44,6 +44,6 @@ Más programas de los que imaginas usan D-Bus. Algunos servicios de D-Bus solo p
  * org.debian.apt
  * com.ubuntu.Upstart
 
-Para averiguar todos los servicios de D-Bus que tienes instalados puedes usar d-feet
+Para averiguar todos los servicios de D-Bus que tienes instalados puedes usar [D-Feet](http://wiki.gnome.org/action/show/Apps/DFeet)
 
 ![D-Feet]({{ site.baseurl }}images/D-Feet.png)
