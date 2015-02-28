@@ -31,7 +31,7 @@ npm install
 
 La estructura del proyecto ya es una aplicación empaquetable, de manera que solo tendremos que modificar ciertos ficheros. Necesitaremos editar el archivo _test.js_ para indicar ciertas preferencias sobre la aplicación. Algunos parámetros interesantes son _os_ que puede ser: win32, mac, linux-i686 o linux-x86_64 y _version_ que debe coincidir con una versión de XUL Runner disponible y publicada. El resto de opciones son autoexplicativas cuando las veais. En mi caso _test.js_ queda así:
 
-```js
+{% highlight javascript %}
 var xul=require("./index.js");
 
 var options={
@@ -48,18 +48,19 @@ var options={
 };
 
 xul.packageApp(options);
-```
+{% endhighlight %}
 
 Ahora debemos crear nuestra aplicación propiamente dicha. Se encuentra bajo el directorio app/ y concretamente el fichero _main.js_ será el ejecutado nada más arrancar la aplicación. _main.js_ puede usar todas las APIs de Node. De hecho si usamos npm en esa carpeta funcionaría correctamente. En mi caso:
 
-```js
+{% highlight javascript %}
 var http = require('http');
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/plain'});
   res.end('Hello World\n');
 }).listen(4200, '127.0.0.1');
 console.log('Server running at http://127.0.0.1:4200/');
-```
+{% endhighlight %}
+
 Y ahora los pasos mágicos. Vamos a la terminal y ejecutamos test.js con Node
 
 ```sh
