@@ -62,8 +62,8 @@ Status
 	<tr>
 		<td>{{ project.name }}</td>
 		<td>{{ project.description }}</td>
-		<td><img src="{{ project.logo}}" alt="{{ project.name }}"></td>
-		<td>![{{ project.name }}](http://img.shields.io/travis/{{ project.travis}}.svg)</td>
+		<td><img src="{{ project.logo}}" alt="Logo for {{ project.name }}"></td>
+		<td><img src="http://img.shields.io/travis/{{ project.travis }}.svg" alt="Travis"></td>
 	</tr>
 {% endfor %}
 </table>
