@@ -13,3 +13,16 @@ projects:
    drone:
    github: AdrianArroyoCalle/firefox-addons
    coveralls: AdrianArroyoCalle/firefox-addons
+ -
+  name: Torre Utopía
+  url: http://adrianarroyocalle.github.io/torre-utopia
+  logo: http://adrianarroyocalle.github.io/img/torre-utopia.png
+  description: Game
+  license: MIT
+  lang: javascript
+  os: HTML5
+  scm: git
+  services:
+   travis: AdrianArroyoCalle/torre-utopia
+   appveyor: AdrianArroyoCalle/torre-utopia
+   github: AdrianArroyoCalle/torre-utopia

@@ -70,7 +70,7 @@ Status
 		<td><img src="http://img.shields.io/npm/dm/{{ project.services.npm }}.svg" alt="npm downloads"></td>
 		<td><img src="http://img.shields.io/apm/dm/{{ project.services.apm }}.svg" alt="apm downloads"></td>
 		<td><img src="http://img.shields.io/nuget/dt/{{ project.services.nuget }}.svg" alt="NuGet"></td>
-		<td><img src="http://img.shields.io/chocolatey/dt/{{ project.serviceschocolatey }}.svg" alt="Chocolatey"></td>
+		<td><img src="http://img.shields.io/chocolatey/dt/{{ project.services.chocolatey }}.svg" alt="Chocolatey"></td>
 		<td><img src="http://img.shields.io/crates/d/{{ project.services.crates }}.svg" alt="Crates.io"></td>
 		<td><img src="http://img.shields.io/npm/v/{{ project.services.npm }}.svg" alt="npm version"></td>
 		<td><img src="http://img.shields.io/crates/v/{{ project.services.crates }}.svg" alt="Crates.io version"></td>
