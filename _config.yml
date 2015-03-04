@@ -14,6 +14,7 @@ description: Este es mi blog personal, espero que lo disfrutes visitando.
 url: http://adrianarroyocalle.github.io
 paginate: 1
 baseurl: /blog/
+fullurl: /blog
 author:
   name: Adrián Arroyo Calle
   url: https://adrianarroyocalle.github.io
