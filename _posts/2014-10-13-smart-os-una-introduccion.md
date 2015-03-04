@@ -1,6 +1,7 @@
 ---
 layout: post
 title: SmartOS, una introducción
+description: SmartOS es un sistema operativo basado en el kernel illumos y desarrollado por Joyent
 keywords:
  - smartos
  - solaris

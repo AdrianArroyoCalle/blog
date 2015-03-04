@@ -1,6 +1,7 @@
 ---
 layout: post
 title: PortAudio + libsndfile. Reproducir Ogg Vorbis, FLAC y WAV en C++
+description: Tutorial de como reproducir audio en Ogg con C++
 ---
 
 Escribo este post ya que cuando quise buscar información sobre el tema no encontré nada en castellano y en inglés poca información. Así pues escribo el que yo considero el mejor método para reproducir audio Ogg Vorbis, FLAC y WAV en C++.<br />Lo primero es descargar e instalar las librerías, ambas son multiplataforma. En Windows irás a la página oficial y seguirás las instrucciones:<br /><ul><li>PortAudio: <a href="http://portaudio.com/">http://portaudio.com/</a></li><li>libsndfile: <a href="http://www.mega-nerd.com/libsndfile/">http://www.mega-nerd.com/libsndfile/</a></li></ul>A su vez si tenemos que compilar libsndfile también necesitaremos libogg y libvorbis para activar la reproducción de Ogg Vorbis o las librerías de FLAC para activar FLAC en la librería. El soporte para WAV es nativo y no hace falta nada.<br />En Linux podemos ahorrarnos tiempo instalando los paquetes binarios. En Debian/Ubuntu:<br /><blockquote class="tr_bq">sudo apt-get install portaudio19-dev libsndfile1-dev</blockquote>Ahora creamos un fichero de C. Atención, aunque C++ sea compatible con el código de C, este código de C tiene problemas en compiladores de C++. Así pues el código de aquí abajo da error con g++ pero funciona correctamente y sin advertencias en gcc. Si quieres insertarlo en un programa de C++, sigue creando este fichero como fichero de C y en el header encapsula la función definida en un "extern C":<br />
