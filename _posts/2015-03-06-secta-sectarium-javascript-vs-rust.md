@@ -64,7 +64,7 @@ Estuve investigando y resulta que WebGL es más rápido que Canvas en operacione
 
 ## Grunt o Gulp
 
-Luego me surgió una duda relacionada con la construcción del proyecto. Había usado [Grunt](http://gruntjs.com) anteriormente pero el [esqueleto de juegos npm]({% post_url 2014-10-26-esqueleto-de-juegos-npm %}) me quitaba las ganas de seguir usando Grunt. Era poco claro con tantas configuraciones. Sabía que existía Gulp, así que heché un vistazo y me han quedado buenas impresiones respecto a claridad. Así que uso [Gulp](http://gulpjs.com).
+Luego me surgió una duda relacionada con la construcción del proyecto. Había usado [Grunt](http://gruntjs.com) anteriormente pero el [esqueleto de juegos npm]({{ site.fullurl }}{% post_url 2014-10-26-esqueleto-de-juegos-npm %}) me quitaba las ganas de seguir usando Grunt. Era poco claro con tantas configuraciones. Sabía que existía Gulp, así que heché un vistazo y me han quedado buenas impresiones respecto a claridad. Así que uso [Gulp](http://gulpjs.com).
 
 ## Seguiré informando
 
