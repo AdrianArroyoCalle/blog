@@ -139,5 +139,6 @@ Estos anunciantes están especializados en juegos
 * [FGL Ads](http://fgl.com)
 * [GameAdvert](http://www.gameadvert.com/)
 * [CPMFun](http://www.cpmfun.com/)
+* [Vungle](http://vungle.com)
 
 Si crees que falta alguna empresa, házmelo saber, te lo agradecería.
