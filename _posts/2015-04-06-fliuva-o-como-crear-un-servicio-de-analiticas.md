@@ -13,8 +13,6 @@ keywords:
  - express
 ---
 
-MODIFICAR CODE PARA HIGHLIGHT
-
 Ya hemos visto los [motivos]({% post_url 2015-04-05-la-informacion-es-poder %}) que tengo para diseñar un servicio de analíticas desde 0. Ahora veremos como lo he hecho.
 
 ![Fliuva]({{ site.baseurl }}images/Fliuva.png)
