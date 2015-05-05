@@ -12,7 +12,7 @@ title: El blog de Adrián Arroyo
 tagline: Si todo el mundo piensa lo mismo, entonces alguien no está pensando - George S. Patton
 description: Este es mi blog personal, espero que lo disfrutes visitando.
 url: http://adrianarroyocalle.github.io
-paginate: 1
+paginate: 3
 baseurl: /blog/
 fullurl: /blog
 author:
