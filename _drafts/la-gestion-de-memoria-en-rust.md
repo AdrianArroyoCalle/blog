@@ -25,4 +25,35 @@ fn main(){
 
 {% endhighlight %}
 
-Hasta aquí todo es sencillo. Ahora pasaremos la variable A a otra función
+Hasta aquí todo es sencillo. Ahora pasaremos la variable A a otra función.
+
+{% highlight rust %}
+
+fn sumar(a: i32, b: i32) -> i32{
+	a+b
+}
+fn main(){
+	let A = 5;
+	let suma = sumar(A,4);
+	println!("{}",suma);
+}
+
+{% endhighlight %}
+
+El  programa compila y nos da el resultado, que es 9. En los lenguajes de bajo nivel las variables pueden usar memoria del stack o del heap. Un pequeño repaso sobre sus diferencias.
+
+###### Stack
+
+* Se reserva su espacio en RAM cuando el programa arranca
+* Son más rápidas de acceder
+* No se les puede cambiar el tamaño
+* Son más seguras
+
+###### Heap
+
+* Se debe reservar manualmente la RAM cuando queramos
+* Son más lentas de acceder
+* Pueden cambiar su tamaño en tiempo real
+* Son menos seguras. Pueden dar lugar a fugas de memoria.
+
+En este último caso, la variable A cuyo dueño es main() le pasa la membresía temporalmente a sumar(). La membresía se devuelve a main() rápidamente y esta garantizado que así suceda. El compilador lo permite. Veamos ahora un ejemplo más complejo.
