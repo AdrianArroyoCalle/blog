@@ -8,6 +8,7 @@ keywords:
  - linux
  - programacion
  - blogstack
+ - ubuntu
 ---
 
 Llevo varios años usando de forma habitual CMake. Sin embargo me doy cuenta que alguien que quiera empezar a usar este sistema va a encontrarse con documentación confusa.
