@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Tutorial de CMake
 description: Tutorial en español con ejemplos prácticos para CMake 3.2
 keywords:
