@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="41cm" height="17cm" viewBox="30 22 811 333" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="30" y="34">
+    <tspan x="30" y="34"></tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="49" y="44">
+    <tspan x="49" y="44">Sin CMake</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="123" y="68">
+    <tspan x="123" y="68">Linux</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="120" y="138">
+    <tspan x="120" y="138">Windows</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="46" y="205">
+    <tspan x="46" y="205">Con CMake</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="121" y="214">
+    <tspan x="121" y="214"></tspan>
+    <tspan x="121" y="230">Linux</tspan>
+    <tspan x="121" y="246"></tspan>
+    <tspan x="121" y="262"></tspan>
+    <tspan x="121" y="278"></tspan>
+    <tspan x="121" y="294"></tspan>
+    <tspan x="121" y="310">Windows</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="433" y="98.5">
+    <tspan x="433" y="98.5"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="153" y="76" width="193" height="46"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="153" y="76" width="193" height="46"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="249.5" y="102.9">
+      <tspan x="249.5" y="102.9">ESCRIBIR MAKEFILE</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="388" y="78" width="223" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="388" y="78" width="223" height="44"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="499.5" y="103.9">
+      <tspan x="499.5" y="103.9">COMPILAR CON MAKE</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="152.075" y="142" width="193.85" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="152.075" y="142" width="193.85" height="40"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="249" y="165.9">
+      <tspan x="249" y="165.9">PROYECTO VISUAL STUDIO</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="386.75" y="143" width="224.5" height="41"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="386.75" y="143" width="224.5" height="41"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="499" y="167.4">
+      <tspan x="499" y="167.4">COMPILAR CON VISUAL STUDIO</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="83.9" y="240" width="194.2" height="48"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="83.9" y="240" width="194.2" height="48"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="181" y="267.9">
+      <tspan x="181" y="267.9">ESCRIBIR CMAKE</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="322" y="240" width="260" height="49"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="322" y="240" width="260" height="49"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="452" y="268.4">
+      <tspan x="452" y="268.4">GENERAR MAKEFILE</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="320.675" y="303" width="259.65" height="49"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="320.675" y="303" width="259.65" height="49"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="450.5" y="331.4">
+      <tspan x="450.5" y="331.4">GENERAR PROYECTO VISUAL STUDIO</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="615" y="240" width="225" height="45"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="615" y="240" width="225" height="45"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="727.5" y="266.4">
+      <tspan x="727.5" y="266.4">COMPILAR CON MAKE</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="614.75" y="301" width="224.5" height="53"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="614.75" y="301" width="224.5" height="53"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="727" y="331.4">
+      <tspan x="727" y="331.4">COMPILAR CON VISUAL STUDIO</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="346" y1="99" x2="383.529" y2="99.8936"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="375.648,104.707 385.765,99.9468 375.886,94.7102 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="345.925" y1="162" x2="382.281" y2="163.336"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="374.339,168.047 384.515,163.418 374.706,158.054 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="279.073" y1="264.348" x2="317.528" y2="264.484"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="309.746,269.457 319.764,264.492 309.782,259.457 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="278.1" y1="264" x2="318.185" y2="323.785"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="309.708,320.121 319.43,325.643 318.014,314.552 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="582" y1="264.5" x2="610.536" y2="262.771"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="603.089,268.231 612.768,262.635 602.484,258.249 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="580.325" y1="327.5" x2="610.278" y2="327.5"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="602.514,332.5 612.514,327.5 602.514,322.5 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="623" y="227">
+    <tspan x="623" y="227">http://adrianarroyocalle.github.io</tspan>
+  </text>
+</svg>
