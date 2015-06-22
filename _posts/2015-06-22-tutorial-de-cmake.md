@@ -66,7 +66,7 @@ Vamos a ir viendo distintas versiones del archivo donde voy a ir añadiendo dife
 
 #### Compilar como programa main.cpp
 
-```cmake
+{% highlight cmake %}
 PROJECT(MiProyecto)
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 # Indicamos la versión mínima que necesitamos de CMake
@@ -83,7 +83,7 @@ ADD_EXECUTABLE(MiProyecto ${MiProyecto_SRC})
 # Se creará un ejecutable llamado MiProyecto en Linux o MiProyecto.exe en Windows.
 # Se hace referencia a las variables con ${NOMBRE_VARIABLE}.
 
-```
+{% endhighlight  %}
 
 Y ya está. Si quieres saber las flags que se usaran al llamar al compilador mira [algunas variables interesantes](#algunas-variables-interesantes)
 
@@ -92,7 +92,7 @@ Y ya está. Si quieres saber las flags que se usaran al llamar al compilador mir
 
 CMake permite ajustar muchas opciones como hemos visto con el asistente gráfico de CMake. Sin embargo no todas las variables se muestran ahí. Solo son modificables las que nosotros marquemos explícitamente. Se usa OPTION()
 
-```cmake
+{% highlight cmake %}
 
 PROJECT(MiProyecto)
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
@@ -112,11 +112,11 @@ ENDIF()
 
 ADD_EXECUTABLE(MiProyecto ${MiProyecto_SRC})
 
-```
+{% endhighlight  %}
 
 ## Usar librería estática
 
-```cmake
+{% highlight cmake %}
 PROJECT(MiProyecto C CXX)
 # Podemos marcar opcionalmente los lenguajes para que CMake busque los compiladores
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
@@ -133,11 +133,11 @@ TARGET_LINK_LIBRARIES(MiProyecto ${Lib})
 # TARGET_LINK_LIBRARIES(MiProyecto pthread)
 # Se pueden hacer las llamadas que se quiera a TARGET_LINK_LIBRARIES
 
-```
+{% endhighlight  %}
 
 ## Usar librería dinámica
 
-```cmake
+{% highlight cmake %}
 PROJECT(MiProyecto)
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 
@@ -148,13 +148,13 @@ ADD_LIBRARY(Lib SHARED ${Lib_SRC})
 ADD_EXECUTABLE(MiProyecto ${MiProyecto_SRC})
 TARGET_LINK_LIBRARIES(MiProyecto ${MiProyecto_SRC})
 
-```
+{% endhighlight  %}
 
 ## Seleccionar archivos de forma masiva
 
 Usar SET para los archivos es muy fácil de entender, pero es posible que no queramos mantener una lista explícita del código fuente.
 
-```cmake
+{% highlight cmake %}
 
 PROJECT(MiProyecto)
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
@@ -165,13 +165,13 @@ FILE(GLOB MiProyecto_SRC "src/*.cpp")
 
 ADD_EXECUTABLE(MiProyecto ${MiProyecto_SRC})
 
-```
+{% endhighlight  %}
 
 Esto tiene un inconveniente y es que CMake no detecta automáticamente si hay nuevos archivos que cumplen la característica, por lo que hay que forzar la recarga.
 
 ## Copiar, crear, eliminar y descargar archivos
 
-```cmake
+{% highlight cmake %}
 
 PROJECT(MiProyecto)
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
@@ -211,13 +211,13 @@ FILE(SHA256 archivo.tar.gz VARIABLE_CON_EL_HASH)
 
 ADD_EXECUTABLE(MiProyecto ${MiProyecto_SRC})
 
-```
+{% endhighlight  %}
 
 ## Incluir archivos de cabecera
 
 A veces es necesario incluir archivos de cabecera en localizaciones no estándar
 
-```cmake
+{% highlight cmake %}
 
 PROJECT(MiProyecto)
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
@@ -230,14 +230,14 @@ INCLUDE_DIRECTORIES("src/includes")
 # Se añade el directorio a la ruta de búsqueda del compilador de turno
 
 ADD_EXECUTABLE(MiProyecto ${MiProyecto_SRC})
-```
+{% endhighlight  %}
 
 
 ## Plugins de CMake
 
 CMake es extensible a través de módulos. La instalación por defecto de CMake trae unos cuantos módulos, no obstante, podemos añadir módulos solo para nuestro proyecto. Los módulos tienen extensión .cmake. Normalmente se dejan en una carpeta llamada `cmake`.
 
-```cmake
+{% highlight cmake %}
 
 PROJECT(MiProyecto)
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
@@ -247,13 +247,13 @@ LIST(APPEND CMAKE_PLUGIN_PATH "cmake")
 
 ADD_EXECUTABLE(MiProyecto_SRC "src/main.cpp")
 
-```
+{% endhighlight  %}
 
 ## Mostrar información y generar errores
 
 En ciertas situaciones querremos que no se pueda compilar el proyecto. MESSAGE es la solución.
 
-```cmake
+{% highlight cmake %}
 
 PROJECT(MiProyecto)
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
@@ -266,11 +266,11 @@ MESSAGE(FATAL_ERROR "Error grave, detiene la configuración")
 
 ADD_EXECUTABLE(MiProyecto "src/main.cpp")
 
-```
+{% endhighlight  %}
 
 ## Condicionales avanzados
 
-```cmake
+{% highlight cmake %}
 
 PROJECT(MiProyecto)
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
@@ -328,11 +328,11 @@ IF(src/main.cpp IS_NEWER_THAN src/old/main.cpp) # ¿Es src/main.cpp más nuevo q
 
 IF(IS_DIRECTORY src/includes) # ¿src/includes es un archivo o una carpeta?
 
-```
+{% endhighlight  %}
 
 ## Bucles
 
-```cmake
+{% highlight cmake %}
 
 PROJECT(MiProyecto)
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
@@ -346,13 +346,13 @@ FOREACH(Archivo_SRC IN MiProyecto_SRC)
 	MESSAGE(STATUS "Procesando archivo ${Archivo_SRC}")
 ENDFOREACH()
 
-```
+{% endhighlight  %}
 
 ## Submódulos
 
 CMake usa un único archivo, pero quizá nos conviene repartir la configuración de CMake por varias carpetas entre zonas diferenciadas.
 
-```cmake
+{% highlight cmake %}
 
 PROJECT(MiProyecto)
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
@@ -362,13 +362,13 @@ ADD_SUBDIRECTORY(src)
 
 # src y lib tienen un CMakeLists.txt cada uno
 
-```
+{% endhighlight  %}
 
 ## Librerías externas
 
 Una de las características más interesantes de CMake es que es capaz de encontrar librerías externas que necesite nuestro programa. Esta característica se implementa con plugins de CMake. Aquí voy a necesitar wxWidgets.
 
-```cmake
+{% highlight cmake %}
 PROJECT(MiProyecto)
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 
@@ -383,13 +383,13 @@ FIND_PACKAGE(wxWidgets)
 INCLUDE_DIRECTORIES(${wxWidgets_INCLUDE_DIR})
 TARGET_LINK_LIBRARIES(MiProyecto ${wxWidgets_LIBRARIES})
 
-```
+{% endhighlight  %}
 
 ## Definiciones
 
 Podemos añadir directivas del preprocesador de C++ con CMake
 
-```cmake
+{% highlight cmake %}
 
 PROJECT(MiProyecto)
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
@@ -399,13 +399,13 @@ ADD_DEFINITIONS(-DPREMIUM_SUPPORT)
 
 ADD_EXECUTABLE(MiProyecto "src/main.cpp")
 
-```
+{% endhighlight  %}
 
 ## Dependencias
 
 Se pueden crear árboles de dependencias en CMake
 
-```cmake
+{% highlight cmake %}
 PROJECT(MiProyecto)
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 
@@ -415,13 +415,13 @@ ADD_EXECUTABLE(NecesitaMiProyecto "src/otro.cpp")
 ADD_DEPENDENCY(NecesitaMiProyecto MiProyecto)
 # NecesitaMiProyecto ahora depende de MiProyecto
 
-```
+{% endhighlight  %}
 
 ## Usando Qt
 
 Ejemplo práctico usando CMake y Qt5 que es capaz de usar QML. Soporta archivos QRC de recursos. Requiere los plugins de Qt5
 
-```cmake
+{% highlight cmake %}
 
 PROJECT(ProyectoQt)
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
@@ -443,13 +443,13 @@ ADD_EXECUTABLE(ProyectoQt ${ProyectoQt_SRC} ${Res_SRC})
 qt5_use_modules(ProyectoQt Widgets Qml Quick)
 
 
-```
+{% endhighlight  %}
 
 ## Usando Java
 
 CMake soporta Java, aunque no maneja dependencias como Maven o Gradle.
 
-```cmake
+{% highlight cmake %}
 
 PROJECT(ProyectoJava)
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
@@ -464,13 +464,13 @@ SET(DEPS_JAR "deps/appengine.jar")
 
 add_jar(ProyectoJava ${JAVA_SRC} INCLUDE_JARS ${DEPS_JAR} ENTRY_POINT "PuntoDeEntrada")
 
-```
+{% endhighlight  %}
 
 ## Comandos personalizados, Doxygen
 
 En CMake podemos crear comandos personalizados. Por ejemplo, generar documentación con Doxygen
 
-```cmake
+{% highlight cmake %}
 PROJECT(Doxy)
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 
@@ -479,7 +479,7 @@ ADD_CUSTOM_TARGET(doxygen doxygen ${PROJECT_SOURCE_DIR}/Doxyfile DEPENDS MiProye
 # Ahora puedes usar "make doxygen"
 # Como es un TARGET cualquiera de CMake, puedes usar ADD_DEPENDENCY
 # También puedes usar el plugin FindDoxygen para más portabilidad
-```
+{% endhighlight  %}
 
 ## Archivos de configuración
 
@@ -488,7 +488,7 @@ En Autotools es común usar un archivo con configuraciones en tiempo de compilac
 
 config.hpp.in
 
-```cpp
+{% highlight cpp %}
 #ifndef CONFIG_HPP
 #define CONFIG_HPP
 
@@ -501,9 +501,9 @@ config.hpp.in
 /* Se definirá AUTHOR con el valor que tenga CMakeLists.txt de la variable AUTHOR */
 
 #endif
-```
+{% endhighlight  %}
 
-```cmake
+{% highlight cmake %}
 PROJECT(MiProyecto)
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 
@@ -512,13 +512,13 @@ SET(AUTHOR "\"Adrian Arroyo Calle\"")
 CONFIGURE_FILE(src/config.hpp.in src/config.hpp)
 
 
-```
+{% endhighlight  %}
 
 ## Instalar
 
 CMake permite instalar también los programas
 
-```cmake
+{% highlight cmake %}
 PROJECT(MiProyecto)
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 
@@ -543,7 +543,7 @@ INCLUDE(InstallRequiredSystemLibraries)
 # Y con esto se puede usar 'make install'
 
 
-```
+{% endhighlight  %}
 
 ## CPack
 
@@ -565,7 +565,7 @@ Pero `make install` es un poco incómodo. No se puede distribuir fácilmente. Aq
 
 CPack necesita que usemos el comando `cpack` en vez de `cmake`
 
-```cmake
+{% highlight cmake %}
 
 PROJECT(MiProyecto)
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
@@ -578,13 +578,13 @@ INCLUDE(CPack)
 # Para el resto deberás configurar manualmente unas cuantas variables necesarias
 # http://www.cmake.org/Wiki/CMake:CPackPackageGenerators
 
-```
+{% endhighlight  %}
 
 ## Usando ensamblador
 
 CMake soporta correctamente GNU ASM. Nasm requiere más trabajo.
 
-```cmake
+{% highlight cmake %}
 PROJECT(gnu-asm ASM C)
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 
@@ -596,7 +596,7 @@ FILE(GLOB C_SOURCES "*.c")
 ADD_LIBRARY(asm STATIC ${ASM_SOURCES})
 ADD_EXECUTABLE(gnu-asm ${C_SOURCES})
 TARGET_LINK_LIBRARIES(gnu-asm asm)
-```
+{% endhighlight  %}
 
 ## Algunas variables interesantes
 
@@ -639,11 +639,11 @@ Muchas más en la [wiki de CMake](http://www.cmake.org/Wiki/CMake_Useful_Variabl
 
 El RPath es importante en los sistemas UNIX. Se trata de cargar librerías dinámicas que no están en directorios estándar.
 
-```cmake
+{% highlight cmake %}
 SET(CMAKE_SKIP_BUILD_RPATH  FALSE)
 SET(CMAKE_BUILD_WITH_INSTALL_RPATH TRUE) 
 SET(CMAKE_INSTALL_RPATH "$ORIGIN")
 SET(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
-```
+{% endhighlight  %}
 
 Esto hará que los ejecutables construidos en UNIX puedan cargar librerías desde la carpeta donde se encuentran. Al estilo Windows.
