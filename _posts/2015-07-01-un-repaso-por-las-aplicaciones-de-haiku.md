@@ -335,7 +335,7 @@ Yab es un entorno que permite programar aplicaciones para Haiku en __BASIC__. Ya
 
 ##### Instalar
 
-En HaikuDepot o `pkgman install a_book`
+En HaikuDepot o `pkgman install yab_ide`
 
 ## Juegos
 
