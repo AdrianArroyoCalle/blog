@@ -3,6 +3,13 @@ layout: default
 title: Principal
 ---
 
+<!-- Blog - Main Page -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6944504853839360"
+     data-ad-slot="7738117134"
+     data-ad-format="auto"></ins>
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
@@ -14,7 +21,7 @@ title: Principal
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
+    {{ post.excerpt }}
   </div>
   {% endfor %}
 </div>
