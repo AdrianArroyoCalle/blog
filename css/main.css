@@ -16,11 +16,14 @@ div.related{
 	border-style: groove;
 	border-width: 7px;
 }
-img{
+article img{
 	max-width: calc(100% - 14px);
 	border-width: 7px;
 	border-style: groove;
 	border-color: black;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	
 }
 .masthead{
@@ -44,4 +47,10 @@ img{
 		margin-left: 20%;
 		margin-right: 20%;
 	}
+}
+
+article{
+	background-color: rgba(147, 229, 136,0.75);
+	padding: 25px;
+	border: ridge 10px rgb(176, 189, 125);
 }
