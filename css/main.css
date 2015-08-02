@@ -53,6 +53,7 @@ article{
 	background-color: rgba(147, 229, 136,0.75);
 	padding: 25px;
 	border: ridge 10px rgb(176, 189, 125);
+	font-family: sans-serif;
 }
 
 pre{
