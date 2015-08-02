@@ -54,3 +54,7 @@ article{
 	padding: 25px;
 	border: ridge 10px rgb(176, 189, 125);
 }
+
+pre{
+	overflow-x: scroll;
+}
