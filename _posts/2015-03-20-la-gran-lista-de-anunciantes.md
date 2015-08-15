@@ -20,13 +20,20 @@ Una de las maneras más comunes de monetizar el contenido es dotándole de publi
 ## Generales
 
 * [Google AdSense](http://www.google.com/adsense)
+* [ADEXM](http://adexm.com/register.php?ref=aarroyoc)
+* [AdPrimary](https://adprimary.com/?ref=1579)
+* [AdsWinner](https://adswinner.com/?ref=743)
+* [PropellerAds](http://www.propellerads.com/?rfd=h0p)
+* [YesAdvertising](http://member.yesadvertising.com/member/auth/signup?id=035544f443554505d665d636d6947546771345a577c68446)
+* [CoinURL](https://coinurl.com/index.php?ref=e0d0dc05a28d4c3cc3dd02b33d12c02f)
+* [AdHexa](https://www.adhexa.com/?ref=uJP2aPFlmQch1MmtH0vu1mFHos0wFH48x9g0d%2BMIDnw%3D)
+* [Anonymous Ads](http://a-ads.com?partner=62441)
+* [PopAds](https://www.popads.net/users/refer/455347)
+* [ExoClick](http://www.exoclick.com/signup.php?login=aarroyoc)
+* [BitClix](http://bitclix.com/?r=10685)
+* [VigLink](http://viglink.com/?vgref=1735505)
 * [ADPV](http://adpv.com)
 * [AdCash](http://adcash.com)
-* [CoinURL](https://coinurl.com/index.php?ref=e0d0dc05a28d4c3cc3dd02b33d12c02f )
-* [Anonymous Ads](http://a-ads.com?partner=62441)
-* [PopAds](http://www.popads.net)
-* [ExoClick](http://www.exoclick.com)
-* [BitClix](http://bitclix.com)
 * [B4PSAds](http://b4psads.com)
 * [AdRoll](http://www.adroll.com)
 * [Amazon](https://affiliate-program.amazon.com)
@@ -40,7 +47,6 @@ Una de las maneras más comunes de monetizar el contenido es dotándole de publi
 * [AppNexus](http://appnexus.com)
 * [LinkShare](http://marketing.rakuten.com/affiliate-marketing)
 * [Zanox](http://www.zanox.com)
-* [VigLink](http://www.viglink.com)
 * [Media.net](http://www.media.net)
 * [Tradedoubler](http://tradedoubler.com)
 * [Chitika](https://www.chitika.com)
@@ -86,7 +92,6 @@ Una de las maneras más comunes de monetizar el contenido es dotándole de publi
 * [Beacon](https://beaconads.com)
 * [CPX Interactive](http://www.cpxi.com)
 * [Adult AdWorld](http://adultadworld.com)
-* [PropellerAds](https://propellerads.com)
 * [ClickBank](http://clickbank.com)
 * [LinkConnector](http://www.linkconnector.com)
 * [Qadabra](http://www.qadabra.com)
@@ -113,11 +118,22 @@ Una de las maneras más comunes de monetizar el contenido es dotándole de publi
 * [Impresiones Web](http://www.impresionesweb.com)
 * [CoinAdvert.net](https://coinadvert.net)
 * [AdBit](http://adbit.co)
+* [BitBillions](https://publisher.bitbillions.com)
+* [EPOM](https://epom.com)
+* [Poolpy](http://poolpy.net)
+* [Adscale.de](http://adscale.de)
+* [Atlas](http://atlassolutions.com/)
+* [Belboon](https://www.belboon.com/en/)
+
+## Vídeos
+
+* [Google AdSense para vídeo](http://google.com/adsense) Usando el IMA SDK
 
 ## Móviles
 
 Estos anunciantes están especializados en el sector móvil
 
+* [Appodeal](http://appodeal.com/+ef57a13a90cf2040891e44678ecb5083)
 * [AdMob](https://www.google.es/ads/admob)
 * [Inneractive](http://inner-active.com)
 * [LeadBolt](http://leadbolt.com)
@@ -140,5 +156,42 @@ Estos anunciantes están especializados en juegos
 * [GameAdvert](http://www.gameadvert.com/)
 * [CPMFun](http://www.cpmfun.com/)
 * [Vungle](http://vungle.com)
+* [Unity Ads](https://unityads.unity3d.com)
+
+## Acortadores
+
+* [Adf.ly](http://adf.ly/?id=4869054)
+* [Bc.vc](http://bc.vc/?r=96749)
+* [CoinURL](https://coinurl.com/index.php?ref=e0d0dc05a28d4c3cc3dd02b33d12c02f )
+
+## Posts patrocinados
+
+* [Publisuites](https://www.publisuites.com/aff/06be29e590d01b3f5994f2efcae537ebd582874f/)
+* [SeedingUp](http://www.seedingup.es)
+
+## Complementos
+
+* [TweakBar](http://tweakbar.com/)
+
+## Microeconomía
+
+* PaymentWall
+
+<script type="text/javascript">
+    var adfly_id = 4869054;
+    var adfly_advert = 'int';
+    var popunder = true;
+    var exclude_domains = ['google.com', 'adrianarroyocalle.github.io'];
+</script>
+<script src="https://cdn.adf.ly/js/link-converter.js"></script>
+
+{% comment %}
+<script type="text/javascript">
+    var accountID = 96749;
+    var adType = 'int';
+    var exclude_domains = ['google.com', 'adrianarroyocalle.github.io'];
+</script>
+<script type="text/javascript" src="http://bc.vc/js/link-converter.js"></script>
+{% endcomment %}
 
 Si crees que falta alguna empresa, házmelo saber, te lo agradecería.
