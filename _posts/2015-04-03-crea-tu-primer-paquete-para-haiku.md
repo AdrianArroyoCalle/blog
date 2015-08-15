@@ -40,7 +40,7 @@ para separar entre renglones que no deben superar \
 los 80 caracteres
 "
 HOMEPAGE="http://pagina-de-inicio.org.es"
-SRC_URI="http://una-pagina.com/con-el-archivo-del-codigo-fuente.tar.gz" # Se admiten muchas variaciones aquí. Podemos usar git://, hg://, svn://, bzr://, ftp://, http:// y los formatos de compresión tar.gz, tar.bz2, zip. Se admiten combinaciones de protocolos.
+SOURCE_URI="http://una-pagina.com/con-el-archivo-del-codigo-fuente.tar.gz" # Se admiten muchas variaciones aquí. Podemos usar git://, hg://, svn://, bzr://, ftp://, http:// y los formatos de compresión tar.gz, tar.bz2, zip. Se admiten combinaciones de protocolos.
 LICENSE="MIT"
 COPYRIGHT="Año y autor"
 REVISION="1" # Siendo la misma versión del programa, revisiones del propio empaquetado
