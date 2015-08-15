@@ -141,6 +141,7 @@ Estos anunciantes están especializados en el sector móvil
 * [AdDuplex](http://www.adduplex.com)
 * [InMobi](http://www.inmobi.com/spain)
 * [Mobicow](http://mobicow.com)
+* [BirdView Mobile](http://birdviewmobile.com/)
 
 ## Juegos
 
