@@ -24,6 +24,7 @@ Los sponsors son los encargados de atraer tráfico a tus juegos. Aquí esta la l
 * [Spil Games](http://www.spilgames.com)
 * [Clay.io](http://clay.io)
 * [SpreadMyGame](http://www.spreadmygame.com/)
+* [GamePix](http://www.gamepix.com)
 
 ## Portales de juegos
 

@@ -124,6 +124,7 @@ Una de las maneras más comunes de monetizar el contenido es dotándole de publi
 * [Adscale.de](http://adscale.de)
 * [Atlas](http://atlassolutions.com/)
 * [Belboon](https://www.belboon.com/en/)
+* [PopCash](http://popcash.net)
 
 ## Vídeos
 
@@ -142,6 +143,7 @@ Estos anunciantes están especializados en el sector móvil
 * [InMobi](http://www.inmobi.com/spain)
 * [Mobicow](http://mobicow.com)
 * [BirdView Mobile](http://birdviewmobile.com/)
+* [AdBuddiz](https://www.adbuddiz.com/developers)
 
 ## Juegos
 
