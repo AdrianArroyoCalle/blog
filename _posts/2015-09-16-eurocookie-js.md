@@ -40,7 +40,7 @@ Instalar eurocookie-js es más simple que el mecanismo de un botijo. Hay 3 maner
 
 * npm - `npm install eurocookie-js --save`, pensado para usarlo con browserify
 * bower - `bower install eurocookie-js --save`
-* directamente - descarga el archivo `index.js` de GitHub: http://github.com/AdrianArroyoCalle/eurocookie-js
+* directamente - descarga el archivo `index.js` de GitHub: [http://github.com/AdrianArroyoCalle/eurocookie-js](http://github.com/AdrianArroyoCalle/eurocookie-js)
 
 ![Biscuits, galletas]({{ site.baseurl }}images/Biscuit.jpg)
 
@@ -98,4 +98,4 @@ El fichero generado por browserify podrá ser añadido directamente al HTML.
 
 ## Más información
 
-Como siempre, toda la información está en GitHub: http://github.com/AdrianArroyoCalle/eurocookie-js
+Como siempre, toda la información está en GitHub: [http://github.com/AdrianArroyoCalle/eurocookie-js](http://github.com/AdrianArroyoCalle/eurocookie-js)
