@@ -467,6 +467,18 @@ add_jar(ProyectoJava ${JAVA_SRC} INCLUDE_JARS ${DEPS_JAR} ENTRY_POINT "PuntoDeEn
 
 {% endhighlight  %}
 
+## Usar C++11
+
+A partir de CMake 3.1, podemos definir el estándar de C y C++ que vamos a usar
+
+{% highlight cmake %}
+
+SET_PROPERTY(TARGET Ejecutable PROPERTY CXX_STANDARD 11) # Para C++11. Solo afecta al target Ejecutable
+
+SET(CMAKE_CXX_STANDARD 11) # Para C++11. Afecta globalmente al proyecto.
+
+{% endhighlight  %}
+
 ## Comandos personalizados, Doxygen
 
 En CMake podemos crear comandos personalizados. Por ejemplo, generar documentación con Doxygen
