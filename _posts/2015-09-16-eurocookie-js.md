@@ -89,7 +89,7 @@ euroCookie("http://enlace-a-politica-de-privacidad.com");
 
 ##### Si usamos npm + browserify
 
-{% highlight html %}
+{% highlight js %}
 var ec=require("eurocookie-js");
 ec.euroCookie("http://link-to-privacy-policy.com");
 {% endhighlight %}
