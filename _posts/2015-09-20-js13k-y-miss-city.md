@@ -104,5 +104,5 @@ Firefox recomienda usar [KeyboardEvent.key](https://developer.mozilla.org/en-US/
 Si has leído hasta aquí, es un buen momento para jugar a MissCity. Hay un premio por compartir en redes sociales, si quieres ayudarme ya sabes.
 
 <div style="text-align: center;">
-[MissCity](http://js13kgames.com/entries/miss-city)
+<a href="http://js13kgames.com/entries/miss-city">MissCity</a>
 </div>
