@@ -46,7 +46,12 @@ article img{
 	border-color: white;
 	text-decoration: none;
 	border-radius: 4px;
-	
+	font-family: "SouciSansNF";
+	font-size: 20px;
+}
+
+.posts{
+	font-family: sans-serif;
 }
 
 .post-title{
