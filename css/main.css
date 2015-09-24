@@ -1,10 +1,10 @@
 /* CSS File for Adrian Arroyo Jekyll Blog */
 
 @font-face{
-	font-family: "SouciSansN";
+	font-family: "SouciSansNF";
 	font-style: normal;
 	font-weight: 400;
-	src: local("SouciSansN"), url("/blog/fonts/SouciSansN.ttf") format("truetype");
+	src: local("SouciSansNF"), url("/blog/fonts/SouciSansNF.ttf") format("truetype");
 }
 
 #bg{
@@ -50,7 +50,7 @@ article img{
 }
 
 .post-title{
-	font-family: "SouciSansN";
+	font-family: "SouciSansNF";
 }
 
 @media(min-width: 800px){
