@@ -26,6 +26,6 @@ version: 1.0.0
 github:
   repo: https://github.com/AdrianArroyoCalle/blog
 pages_list:
-  Acerca: "/about"
-  Archivo: "/archive"
-  Feed: "/atom.xml"
+  Acerca: "about"
+  Archivo: "archive"
+  Feed: "atom.xml"
