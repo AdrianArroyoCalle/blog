@@ -37,6 +37,7 @@ Una de las maneras más comunes de monetizar el contenido es dotándole de publi
 * [RevenueHits](http://www.revenuehits.com/lps/v41/?ref=@RH@k9femhtc1JNlkkLEB146pQ)
 * [BidVertiser](http://www.bidvertiser.com/bdv/bidvertiser/bdv_ref_publisher.dbm?Ref_Option=pub&Ref_PID=686703)
 * [VigLink](http://viglink.com/?vgref=1735505)
+* [MellowAds](https://mellowads.com/)
 * [ADPV](http://adpv.com)
 * [AdCash](http://adcash.com)
 * [B4PSAds](http://b4psads.com)
@@ -170,15 +171,23 @@ Estos anunciantes están especializados en juegos
 * [Adf.ly](http://adf.ly/?id=4869054)
 * [Bc.vc](http://bc.vc/?r=96749)
 * [CoinURL](https://coinurl.com/index.php?ref=e0d0dc05a28d4c3cc3dd02b33d12c02f )
+* [Ouo.io](http://ouo.io/ref/kZrfrYdn)
+* [LinkShrink](http://linkshrink.net/ref=f6A6T)
+* [Shorte.st](https://shorte.st/es/ref/b4113e532f)
 
 ## Posts patrocinados
 
 * [Publisuites](https://www.publisuites.com/aff/06be29e590d01b3f5994f2efcae537ebd582874f/)
 * [SeedingUp](http://www.seedingup.es)
+* [BuzzParadise](https://member.buzzparadise.com/)
 
 ## Complementos
 
 * [TweakBar](http://tweakbar.com/)
+
+## Alojamiento de archivos
+
+* [UploadBoy](http://uploadboy.com/free662221.html)
 
 ## Microeconomía
 
@@ -199,6 +208,18 @@ Estos anunciantes están especializados en juegos
     var exclude_domains = ['google.com', 'adrianarroyocalle.github.io'];
 </script>
 <script type="text/javascript" src="http://bc.vc/js/link-converter.js"></script>
+{% endcomment %}
+
+{% comment %}
+<script type="text/javascript">var lsKey = 'A6T';var lsDomain = 1;var lsFpE = true;var lsEnE = false;var lsEnT = 3000;var lsEnHr = 2;var lsExE = false; var exclude_domains = ['adrianarroyocalle.github.io'];</script><script src="http://linkshrink.net/fp.js"></script>
+{% endcomment %}
+
+{% comment %}
+<script type="text/javascript">
+    var ouo_token = 'kZrfrYdn';
+    var exclude_domains = ['google.com', 'adrianarroyocalle.github.io'];
+</script>
+<script src="http://cdn.ouo.io/js/full-page-script.js"></script>
 {% endcomment %}
 
 Si crees que falta alguna empresa, házmelo saber, te lo agradecería.
