@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Usar GNU Parallel para aumentar el rendimient en tus scripts
+title: Usar GNU Parallel para aumentar el rendimiento de tus scripts
 description: Tutorial con ejemplo de uso de GNU Parallel para aprovechar el procesador al 100% en tus scripts.
 keywords:
  - blogstack
