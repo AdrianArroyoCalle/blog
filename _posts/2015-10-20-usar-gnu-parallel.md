@@ -86,7 +86,7 @@ if [ "$2" = "1"  ]; then
 else
 	find  . -name "*.mp3" | parallel ./normalize.sh "{}" 1
 fi
-{% endhighlight }
+{% endhighlight %}
 
 Con esta modificación GNU Parallel se encarga de poner en cola los trabajos de conversión y normalización y los reparte entre los cores disponibles del procesador. La gráfica explica claramente la diferencia de uso entre los dos scripts.
 
