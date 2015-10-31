@@ -3,7 +3,16 @@ layout: post
 title: Acortar enlaces en Node.js
 description: Tutorial mostrando como acortar enlaces en Node.js usando Adf.ly, Bc.vc, Ouo.io, LinkShrink.net, Shorte.st y más.
 keywords:
- 
+ - programacion
+ - blogstack
+ - linux
+ - ubuntu
+ - javascript
+ - nodejs
+ - dinero
+ - ganar
+ - enlaces
+ - acortar
 ---
 
 En alguna ocasión puede resultar necesario acortar enlaces desde nuestra aplicación en [Node.js](http://nodejs.org). Además, muchos acortadores añaden __anuncios intersticiales__ de los que podemos sacar un __dinero__. Algunos ejemplos de acortadores que comparten ganancias son:
