@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Emulando a Linus Torvalds: Crea tu propio sistema operativo desde 0 (I)
+title: "Emulando a Linus Torvalds: Crea tu propio sistema operativo desde 0 (I)"
 description: Serie tutorial de cómo crear tu propio sistema operativo desde cero, para procesadores x86.
 keywords:
  - retro
