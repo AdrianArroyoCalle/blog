@@ -11,7 +11,7 @@ keywords:
  - sistemas-operativos
 ---
 
-Hoy voy a hablar de [Redox](http://www.redox-os.org), un sistema operativo relativamente nuevo, escrito totalmente en [Rust]({{ site.baseurl }}{% post_url 2015-07-17-rust-essentials-resena-del-libro %}). Redox sigue la filosofía UNIX y la mayor parte del sistema es accesible a través del sistema de archivos. En Redox esta función la cumplen las URL. Además, es un sistema operativo seguro, una de las principales características de Rust. En Redox además todas las aplicaciones corren en modo sandbox.
+Hoy voy a hablar de [Redox](http://www.redox-os.org), un sistema operativo relativamente nuevo, escrito totalmente en [Rust]({{ site.fullurl }}{% post_url 2015-07-17-rust-essentials-resena-del-libro %}). Redox sigue la filosofía UNIX y la mayor parte del sistema es accesible a través del sistema de archivos. En Redox esta función la cumplen las URL. Además, es un sistema operativo seguro, una de las principales características de Rust. En Redox además todas las aplicaciones corren en modo sandbox.
 
 ## Compilar Redox
 

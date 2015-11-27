@@ -20,7 +20,7 @@ keywords:
 
 Bienvenidos a otro post sobre como crear nuestro propio sistema operativo, en este caso NextDivel.
 
-Si retomamos el código del [primer post]({% post_url 2015-11-26-emulando-a-linus-torvalds-crea-tu-propio-sistema-operativo-1 %}) al final de todo nos debería haber salido algo como esto:
+Si retomamos el código del [primer post]({{ site.fullurl }}{% post_url 2015-11-26-emulando-a-linus-torvalds-crea-tu-propio-sistema-operativo-1 %}) al final de todo nos debería haber salido algo como esto:
 
 ![NextDivel, primera imagen]({{ site.baseurl }}images/NextDivel-1.png)
 
