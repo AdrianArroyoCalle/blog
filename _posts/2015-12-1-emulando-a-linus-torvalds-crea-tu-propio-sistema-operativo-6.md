@@ -16,6 +16,8 @@ keywords:
  - interrupt
 ---
 
+> _Este artículo lo escribí para el blog en español [DesdeLinux](http://blog.desdelinux.net) el 11 de enero de 2014 y ahora lo dejo aquí, en mi blog personal. El artículo está tal cual, sin ninguna modificación desde aquella fecha._
+
 Bien, después de un pequeño paréntesis seguimos con nuestra serie de tutoriales. Si retomamos el código anterior debemos de tener el ISR de la división por cero. Ahora debemos de rellenar el resto de las ISR para las que habíamos puesto mensaje (las 32 primeras). Bien ahora vamos a seguir programando interrupciones, vamos a hacer las IRQ también conocidas como Interrupts Requests. Estas IRQ se generan por los dispositivos de hardware tales como teclados, ratones, impresoras, etc. Inicialmente las primeras 8 IRQ se mapean automáticamente en las posiciones de la IDT del 8 al 15. Como hemos usado las 32 primeras para las excepciones ahora tenemos que remapearlas. Nosotros pondremos la IRQ desde la 32 hasta la 45. Para ello primero debemos remapear los los IRQ:
 
 {% highlight c %}
