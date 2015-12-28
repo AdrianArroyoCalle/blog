@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ya he logrado dominar el mundo
-description: 
+description: Feliz día de los Santos Inocentes. Dominar el mundo era la inocentada.
 keywords:
  - santos-inocentes
  - dominacion
