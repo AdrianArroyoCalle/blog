@@ -6,6 +6,7 @@ keywords:
  - lista
  - bitcoin
  - gratis
+ - faucet
 ---
 
 ¿Quieres algún BitCoin extra? En estas páginas encontrarás metódos gratuitos para aumentar los números de tu monedero BitCoin. Las páginas se encuentran agrupadas por categorías y en ninguna es necesario registrarse.
@@ -82,6 +83,7 @@ keywords:
 * [Best Bitcoin Faucet](http://moneyinpjs.com/best-bitcoin/?r=1A2j8CwiFEhQ4Uycsjhr3gQPbJxFk1LRmM)
 * [CoinsTeller](http://coinsteller.com/?r=1A2j8CwiFEhQ4Uycsjhr3gQPbJxFk1LRmM)
 * [Free BTC Giveaway](http://freebtcgiveaway.com/?r=1A2j8CwiFEhQ4Uycsjhr3gQPbJxFk1LRmM)
+* [InSatoshi](http://www.insatoshi.com/?id=4830)
 
 ### 24 horas
 
