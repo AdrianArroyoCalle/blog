@@ -37,6 +37,7 @@ keywords:
 * [MinionsFaucet](http://minionsfaucet.com/?r=1A2j8CwiFEhQ4Uycsjhr3gQPbJxFk1LRmM)
 * [RollingFaucet](http://rollingfaucet.com/?r=1A2j8CwiFEhQ4Uycsjhr3gQPbJxFk1LRmM)
 * [Just Get Bit](http://jrswab.com/justgetbit/?r=1A2j8CwiFEhQ4Uycsjhr3gQPbJxFk1LRmM)
+* [Take Free Bitcoins](http://takefreebitcoin.com/?r=7276e2df8a)
 
 ### 10 minutos
 
@@ -53,6 +54,7 @@ keywords:
 ### 20 minutos
 
 * [Bitcoin Genie](http://bitcoingenie.info/?r=1A2j8CwiFEhQ4Uycsjhr3gQPbJxFk1LRmM)
+* [Claim BTC](http://claimbtc.com/?r=3ad332679f)
 
 ### 30 minutos
 
