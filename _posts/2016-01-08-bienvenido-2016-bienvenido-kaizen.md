@@ -35,22 +35,6 @@ Cualquier cosa que creais que sirva para mejorar el blog, os lo agradeceré. Sed
   href="https://twitter.com/intent/tweet"
   data-size="large">
 Tweet</a>
-<script>window.twttr = (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0],
-    t = window.twttr || {};
-  if (d.getElementById(id)) return t;
-  js = d.createElement(s);
-  js.id = id;
-  js.src = "https://platform.twitter.com/widgets.js";
-  fjs.parentNode.insertBefore(js, fjs);
- 
-  t._e = [];
-  t.ready = function(f) {
-    t._e.push(f);
-  };
- 
-  return t;
-}(document, "script", "twitter-wjs"));</script>
 <div class="g-person" data-href="https://plus.google.com/114847881804298896907"></div>
 
 <iframe src="https://docs.google.com/forms/d/1ylRU1CKVfDdw9s4044ZWopSQOhqSFge6QgpNiBUxO3s/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Cargando...</iframe>
