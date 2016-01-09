@@ -6,6 +6,7 @@ keywords:
  - blogstack
  - programacion
  - linux
+ - ubuntu
  - kaizen
  - calidad
  - social
