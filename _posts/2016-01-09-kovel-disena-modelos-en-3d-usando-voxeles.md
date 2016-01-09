@@ -37,7 +37,7 @@ Es muy sencillo. Al crear un nuevo archivo seleccionaremos el tamaño de la reji
 Todo el código fuente está en [GitHub](http://github.com/AdrianArroyoCalle/kovel) y se compila usando [CMake]({{ site.fullurl }}{% post_url 2015-06-22-tutorial-de-cmake %}). Pero además hay disponible un PPA para usuarios de Ubuntu. Lamentablemente por temas de dependencias con CMake, solo está disponible en Wily (15.10) y Xenial (16.04), aunque si os descargais el DEB manualmente quizá os funcione también en Trusty (14.04) y Jessie (Debian 8). Los usuarios de Windows tienen un ejecutable también para 64 bits (no he compilado para 32 todavía) pero requiere las DLL de wxWidgets 3.0. Los usuarios de Haiku tendrán que conformarse de momento con el código fuente. Todas las descargas están en la página oficial de Kovel (incluidas las DLL).
 
 <div style="text-align: center">
- <h5><a href="http://adrianarroyocalle.github.io">Kovel</a></h5>
+ <h5><a href="http://adrianarroyocalle.github.io/kovel/">Kovel</a></h5>
 </div>
 
 ![Haiku y Kovel]({{ site.baseurl }}images/KovelHaiku.png)
