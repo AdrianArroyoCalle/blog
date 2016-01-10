@@ -32,48 +32,48 @@ Esta página asume que estás en una plataforma moderna, con estándares moderno
 Standard C99 (C99 significa "Estándar C de 1999"; C11 significa "Estándar C de 2011", así que C11 > C99)
 
 * clang, por defecto
- - C99 es la implementación de C por defecto en clang, no necesita opciones extra
-   * Sin embargo esta implementación no es realmente estándar. Si quieres forzar el estándar, usa `-std=c99`
- - Si quieres usar C11, debes especificar `-std=c11`
- - clang compila el código fuente más rápidamente que gcc
+  - C99 es la implementación de C por defecto en clang, no necesita opciones extra
+    * Sin embargo esta implementación no es realmente estándar. Si quieres forzar el estándar, usa `-std=c99`
+  - Si quieres usar C11, debes especificar `-std=c11`
+  - clang compila el código fuente más rápidamente que gcc
 * gcc necesita que especifiques `-std=c99` o `-std=c11`
- - gcc compila más lentamente pero _a veces_ genera ejecutables más rápidos
- - gcc-5 establece por defecto `-std=gnu11`, así que debes seguir especificando una versión estándar `c99` o `c11`.
+  - gcc compila más lentamente pero _a veces_ genera ejecutables más rápidos
+  - gcc-5 establece por defecto `-std=gnu11`, así que debes seguir especificando una versión estándar `c99` o `c11`.
 
 Optimizaciones
 
-* -O2, -O3
- - generalmente querrás `-O2`, pero algunas veces querrás `-O3`. Prueba tu código con ambos niveles (y entre distintos compiladores) y mantente con los ejecutables más eficientes y rápidos.
-* -Os
- - `-Os` ayuda si te preocupa la eficiencia de la caché (que debería)
+* `-O2, -O3`
+  - generalmente querrás `-O2`, pero algunas veces querrás `-O3`. Prueba tu código con ambos niveles (y entre distintos compiladores) y mantente con los ejecutables más eficientes y rápidos.
+* `-Os`
+  - `-Os` ayuda si te preocupa la eficiencia de la caché (que debería)
 
 Advertencias
 
 * `-Wall -Wextra -pedantic`
- - las nuevas versiones de los compiladores tienen `-Wpedantic`, pero todavía aceptan el antiguo `-pedantic` por cuestiones de compatibilidad.
- - durante las pruebas deberías añadir `-Werror` y `-Wshadow` en todas tus plataformas
-   * puede ser peliagudo enviar a producción con `-Werror` porque cada plataforma y cada compilador y cada librería pueden emitir distintas advertencias. Probablemente no querrás terminar la compilación entera de un usuario porque su versión de GCC en una plataforma que nunca habías visto se queja de manera nueva y sorprendente.
- - algunas opciones más sofisticadas son `-Wstrict-overflow -fno-strict-aliasing`
-   * especifica `-fno-strict-aliasing` o estate seguro de que solo accedes a los objetos con el tipo que tuvieron en su definición. Como mucho código en C ya existente se salta lo último es mucho más seguro usar `-fno-strict-aliasing` particularmente si no controlas todo el código que debes compilar.
- - ahora mismo, clang reporta alguna sintaxis válida como advertencia, así que debes añadir `-Wno-missing-field-initializers`
-   * GCC resolvió este problema después de GCC 4.7
+  - las nuevas versiones de los compiladores tienen `-Wpedantic`, pero todavía aceptan el antiguo `-pedantic` por cuestiones de compatibilidad.
+  - durante las pruebas deberías añadir `-Werror` y `-Wshadow` en todas tus plataformas
+    * puede ser peliagudo enviar a producción con `-Werror` porque cada plataforma y cada compilador y cada librería pueden emitir distintas advertencias. Probablemente no querrás terminar la compilación entera de un usuario porque su versión de GCC en una plataforma que nunca habías visto se queja de manera nueva y sorprendente.
+  - algunas opciones más sofisticadas son `-Wstrict-overflow -fno-strict-aliasing`
+    * especifica `-fno-strict-aliasing` o estate seguro de que solo accedes a los objetos con el tipo que tuvieron en su definición. Como mucho código en C ya existente se salta lo último es mucho más seguro usar `-fno-strict-aliasing` particularmente si no controlas todo el código que debes compilar.
+  - ahora mismo, clang reporta alguna sintaxis válida como advertencia, así que debes añadir `-Wno-missing-field-initializers`
+    * GCC resolvió este problema después de GCC 4.7
 
 Compilando
 
 * Unidades de compilación
- - La manera más común de compilar proyectos en C es generar un fichero objeto de cada fichero fuente y unirlo todos al final. Este procedimiento es muy bueno para el desarrollo incremental, pero no lo es para el rendimiento y la optimización. El compilador no puede detectar optimizaciones entre archivos con este método.
+  - La manera más común de compilar proyectos en C es generar un fichero objeto de cada fichero fuente y unirlo todos al final. Este procedimiento es muy bueno para el desarrollo incremental, pero no lo es para el rendimiento y la optimización. El compilador no puede detectar optimizaciones entre archivos con este método.
 * LTO - Link Time Optimization
- - LTO arregla el problema de las unidades de compilación generando además una representación intermedia que puede ser sujeta de optimizaciones entre archivos. Este sistema ralentiza el tiempo de enlazado significativamente pero `make -j` puede ayudar.
- - [clang LTO](http://llvm.org/docs/LinkTimeOptimization.html) ([guía](http://llvm.org/docs/GoldPlugin.html))
- - [gcc LTO](https://gcc.gnu.org/onlinedocs/gccint/LTO-Overview.html)
- - Ahora mismo, 2016, clang y gcc soportan LTO simplemente añadiendo `-flto` en las opciones tanto de compilación como de enlazado.
- - `LTO` todavía necesita asentarse. A veces, si tu programa tiene código que no usas directamente pero alguna librería sí, LTO puede borrarlo, porque detecta que en tu código no se hace nunca una llamada a esa función.
+  - LTO arregla el problema de las unidades de compilación generando además una representación intermedia que puede ser sujeta de optimizaciones entre archivos. Este sistema ralentiza el tiempo de enlazado significativamente pero `make -j` puede ayudar.
+  - [clang LTO](http://llvm.org/docs/LinkTimeOptimization.html) ([guía](http://llvm.org/docs/GoldPlugin.html))
+  - [gcc LTO](https://gcc.gnu.org/onlinedocs/gccint/LTO-Overview.html)
+  - Ahora mismo, 2016, clang y gcc soportan LTO simplemente añadiendo `-flto` en las opciones tanto de compilación como de enlazado.
+  - `LTO` todavía necesita asentarse. A veces, si tu programa tiene código que no usas directamente pero alguna librería sí, LTO puede borrarlo, porque detecta que en tu código no se hace nunca una llamada a esa función.
 
 Arquitectura
 
 * `-march=native`
- - Le da al compilador permiso para usar todas las características de tu CPU
- - otra vez, compara el funcionamiento con los distintos tipos de optimización y que no tengan efectos secundarios.
+  - Le da al compilador permiso para usar todas las características de tu CPU
+  - otra vez, compara el funcionamiento con los distintos tipos de optimización y que no tengan efectos secundarios.
 * `msse2` y `-msse4.2` pueden ser útiles si necesitas características que no están disponibles en el sistema desde el que compilas.
 
 ## Escribiendo código
