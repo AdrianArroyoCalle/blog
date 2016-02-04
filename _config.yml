@@ -21,6 +21,7 @@ author:
   email: adrian.arroyocalle@gmail.com
 timezone: Europe/Madrid
 encoding: utf-8
+future: false
 # Custom vars
 version: 1.0.0
 github:
