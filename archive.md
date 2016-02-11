@@ -1,9 +1,7 @@
 ---
 layout: page
-title: Archive
+title: Archivo
 ---
-
-## Archivo
 
 {% for post in site.posts %}
   * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ site.fullurl }}{{ post.url }})

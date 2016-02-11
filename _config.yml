@@ -3,16 +3,19 @@ markdown: kramdown
 kramdown:
   input: GFM
 highlighter: rouge
-
+gems:
+ - rouge
+ - jekyll-paginate
 # Permalinks
 permalink: pretty
 
 # Setup
-title: El blog de Adrián Arroyo
+title: El Blog de Adrián Arroyo
 tagline: Si todo el mundo piensa lo mismo, entonces alguien no está pensando - George S. Patton
 description: Este es mi blog personal, espero que lo disfrutes visitando.
 url: http://adrianarroyocalle.github.io
 paginate: 5
+paginate_path: "/blog/page:num/"
 baseurl: /blog/
 fullurl: /blog
 author:
@@ -26,7 +29,3 @@ future: false
 version: 1.0.0
 github:
   repo: https://github.com/AdrianArroyoCalle/blog
-pages_list:
-  Acerca: "about"
-  Archivo: "archive"
-  Feed: "atom.xml"

@@ -1,42 +1,105 @@
 <!DOCTYPE html>
-<html lang="es" manifest="manifest.appcache">
+<html lang="es">
+	<head>
+		{% include meta.html %}
+		<link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.green-indigo.min.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}css/pygments.css"/>
+		<script defer src="https://code.getmdl.io/1.1.1/material.min.js"></script>
+	</head>
+	<body>
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+			<header class="mdl-layout__header">
+				<div class="mdl-layout__header-row">
+					<span class="mdl-layout-title">{{ site.title }}</span>
+					<div class="mdl-layout-spacer"></div>
+					<nav class="mdl-navigation mdl-layout--large-screen-only">
+						<a class="mdl-navigation__link" href="{{ site.fullurl }}">Inicio</a>
+						<a class="mdl-navigation__link" href="{{ site.fullurl }}/archive">Archivo</a>
+						<a class="mdl-navigation__link" href="{{ site.fullurl }}/about">Acerca de</a>
+					</nav>
+					<div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">
+						<label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
+							<i class="material-icons">search</i>
+						</label>
+						<div class="mdl-textfield__expandable-holder">
+							<form action="http://www.google.es" id="cse-search-box" target="_blank">
+								<input type="hidden" name="cx" value="partner-pub-6944504853839360:3109646339" />
+								<input type="hidden" name="ie" value="UTF-8" />
+								<input class="mdl-textfield__input" type="text" name="q" id="fixed-header-drawer-exp">	
+							</form>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class="mdl-layout__drawer">
+				<span class="mdl-layout-title">{{ site.title }}</span>
+				<nav class="mdl-navigation">
+					<a class="mdl-navigation__link" href="{{ site.fullurl }}">Inicio</a>
+					<a class="mdl-navigation__link" href="{{ site.fullurl }}/archive">Archivo</a>
+					<a class="mdl-navigation__link" href="{{ site.fullurl }}/about">Acerca de</a>
+					<a class="mdl-navigation__link" href="{{ site.fullurl }}/atom.xml">Feed RSS</a>
+					<a class="mdl-navigation__link" href="http://github.com/AdrianArroyoCalle">GitHub</a>
+				</nav>
+			</div>
+			<main class="mdl-layout__content mdl-grid" itemscope itemtype="http://schema.org/Blog">
+				<div class="mdl-cell mdl-cell--2-col mdl-cell--order-12-phone" style="background-color: green;">
+					<a href="http://adrianarroyocalle.github.io"><img src="http://adrianarroyocalle.github.io/city.png" alt="Ciudad Adrianistán" style="width: 100%;"></a>
+					<!-- Begin MailChimp Signup Form -->
+						<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+						<style type="text/css">
+							#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+							/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+							   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+						</style>
+						<div id="mc_embed_signup">
+						<form action="//github.us12.list-manage.com/subscribe/post?u=540410f35f30b21a2c4d05005&amp;id=e90781a7c5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+							<div id="mc_embed_signup_scroll">
+							<h2>Recibe las nuevas entradas en tu correo</h2>
+						<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+						<div class="mc-field-group">
+							<label for="mce-EMAIL">Email  <span class="asterisk">*</span>
+						</label>
+							<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+						</div>
+						<div class="mc-field-group input-group">
+							<strong>Categorías </strong>
+							<ul><li><input type="checkbox" value="1" name="group[2773][1]" id="mce-group[2773]-2773-0"><label for="mce-group[2773]-2773-0">Programación y software</label></li>
+						<li><input type="checkbox" value="2" name="group[2773][2]" id="mce-group[2773]-2773-1"><label for="mce-group[2773]-2773-1">Humor</label></li>
+						<li><input type="checkbox" value="4" name="group[2773][4]" id="mce-group[2773]-2773-2"><label for="mce-group[2773]-2773-2">Personal</label></li>
+						</ul>
+						</div>
+						<p>Powered by <a href="http://eepurl.com/bL-Ycr" title="MailChimp - email marketing made easy and fun">MailChimp</a></p>
+							<div id="mce-responses" class="clear">
+								<div class="response" id="mce-error-response" style="display:none"></div>
+								<div class="response" id="mce-success-response" style="display:none"></div>
+							</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+							<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_540410f35f30b21a2c4d05005_e90781a7c5" tabindex="-1" value=""></div>
+							<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+							</div>
+						</form>
+						</div>
 
-  {% include head.html %}
-
-  <body itemscope itemtype="http://schema.org/Blog">
-	<img id="bg" src="{{ site.baseurl }}images/city.svg" alt="Background image"/>
-    <div class="container content">
-      <div class="masthead">
-        <h3 class="masthead-title">
-          <a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a>
-          <small>{{ site.tagline }}</small>
-          {% for page in site.pages_list %}
-            &nbsp;&nbsp;&nbsp;
-            <small><a href="{{ site.baseurl }}{{ page[1]  }}">{{ page[0] }}</a></small>
-          {% endfor %}
-        </h3>
-<!-- Google Search Box -->
-        <form action="http://www.google.es" id="cse-search-box" target="_blank">
-  <div>
-    <input type="hidden" name="cx" value="partner-pub-6944504853839360:3109646339" />
-    <input type="hidden" name="ie" value="UTF-8" />
-    <input type="text" name="q" size="55" />
-    <input type="submit" name="sa" value="Buscar" />
-  </div>
-</form>
-
-<script type="text/javascript" src="http://www.google.es/coop/cse/brand?form=cse-search-box&amp;lang=es"></script>
-<!-- End Google Search Box -->
-      </div>
-
-      {{ content }}
-
-      <div class="footer">
-        <p>
-          <a itemprop="license useRightsUrl" rel="license" href="http://creativecommons.org/licenses/by/4.0">&copy; {{ site.time | date: '%Y' }} - Creative Commons 4.0 Reconocimiento (CC-BY-4.0)</a>
-        </p>
-      </div>
-    </div>
-    {% include analytics.html %}
-  </body>
+					<!--End mc_embed_signup-->
+				</div>
+ 				<div class="mdl-cell mdl-cell--8-col" style="padding-left: 10%; margin-top: 75px; padding-right: 10%;">
+				 {{ content }}
+				</div>
+				<div class="mdl-cell mdl-cell--2-col" style="background-color: red;">
+					<!-- Blog - Lateral -->
+					<ins class="adsbygoogle"
+						 style="display:block"
+						 data-ad-client="ca-pub-6944504853839360"
+						 data-ad-slot="4558156735"
+						 data-ad-format="auto"></ins>
+				</div>
+				<footer style="text-align: center;">
+					<p>
+						<a itemprop="license useRightsUrl" rel="license" href="http://creativecommons.org/licenses/by/4.0">&copy; 2012 - {{ site.time | date: '%Y' }} - Creative Commons 4.0 Reconocimiento (CC-BY-4.0)</a>
+					</p>
+				</footer>
+			</main>
+		</div>
+		{% include analytics.html %}
+	</body>
 </html>
