@@ -174,6 +174,10 @@ Estos anunciantes están especializados en juegos
 * [Ouo.io](http://ouo.io/ref/kZrfrYdn)
 * [LinkShrink](http://linkshrink.net/ref=f6A6T)
 * [Shorte.st](https://shorte.st/es/ref/b4113e532f)
+* [Srnk.co](http://srnk.co/?ref=1787)
+* [LinkPaid](http://linkpaid.net/r/h7)
+* [SafeLinkConverter](http://www.safelinkconverter.com/?ref=48415)
+* [Short.am](http://short.am/join/signup.php?refid=aarroyoc)
 
 ## Posts patrocinados
 
@@ -192,6 +196,10 @@ Estos anunciantes están especializados en juegos
 ## Microeconomía
 
 * PaymentWall
+
+## Faucet
+
+* [NeoBux](https://www.neobux.com/?r=aarroyoc)
 
 <script type="text/javascript">
     var adfly_id = 4869054;
