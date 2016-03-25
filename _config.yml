@@ -18,6 +18,7 @@ paginate: 5
 paginate_path: "/blog/page:num/"
 baseurl: /blog/
 fullurl: /blog
+img: http://adrianarroyocalle.github.io/blog/images
 author:
   name: Adrián Arroyo Calle
   url: https://adrianarroyocalle.github.io
