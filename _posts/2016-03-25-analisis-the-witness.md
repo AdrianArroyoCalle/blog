@@ -2,6 +2,7 @@
 layout: post
 title: Análisis de The Witness
 description: Mi opinión sobre el videojuego The Witness. Un juego que mezcla empirismo con zen con un estilo artísitico impresionista.
+date: "2016-03-25 14:51:00"
 keywords:
  - review
  - analisis
