@@ -24,3 +24,9 @@ Google Play, Windows Store, Firefox Marketplace, Firefox AMO, ... todas ellas so
 * 2 capturas de pantalla en teléfono más 1 por cada dispositivo que añadamos (tablet, Android TV y Android Wear), tamaño libre
 * Un icono de 512x512
 * Una imagen promocional de 1024x512
+* Tipo de Aplicación (Aplicación o Juego)
+* Categoría
+* Clasificación de contenido
+* Informe IARC 
+* Correo electrónico
+* Política de privacidad
