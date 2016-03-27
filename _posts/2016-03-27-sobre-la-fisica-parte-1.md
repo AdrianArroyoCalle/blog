@@ -1,0 +1,30 @@
+---
+layout: post
+title: Sobre la Física - Parte 1
+description: Pensamientos y meditaciones sobre la filosofía del conocimiento y la ciencia
+date: "2016-03-27 16:00:00"
+keywords:
+ - filosofia
+ - ciencia
+ - pensamiento
+ - meditacion
+ - empirismo
+ - fisica
+---
+
+La filosofía de la ciencia. ¿Qué es la realidad? ¿Qué es la física? Es algo que me apasiona. Como es un tema denso serán escritos cortos.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1RWOpQXTltA" frameborder="0" allowfullscreen></iframe>
+
+¿Qué es la __física__? No es algo sencillo. Realmente no hay una respuesta universal. ¿Qué es la naturaleza, qué es la realidad? No son preguntas fáciles. La mayoría de la gente hoy día es empirista, de un grado u otro, una posición correcta, pero no es la única válida. Platón, aún cuando ha pasado mucho tiempo, sigue teniendo una teoría válida para explicar la realidad, alejada totalmente del empirismo. Y el empirismo radical conlleva al escepticismo como avisaba Kant. No poder estar seguros de nada, ¡terminamos en un punto peor que el de partida! Tenemos que asumir que la naturaleza es uniforme en sus comportamientos, pero eso es algo que __nunca__ podrá ser demostrado. Dudas, dudas.
+
+![Ajedrezado]({{ site.img }}/Ajedrezado.jpg)
+
+¿Y las matemáticas? ¿Fueron descubiertas o fueron inventadas? Ahora mi opinión. La __física__ no es la realidad. La __física__ es un modelo matemático, muy preciso, pero alejado de lo real. "El Universo se puede expresar en una ecuación" es falso. La __física__ no es más que una interpretación humana usando matemáticas. La física entonces no es más que una invención humana, no nos dice porque la realidad es tal como es. Dudas, dudas.
+
+Lo más triste de todo es que hay gente que cree en la ciencia como un dogma, ajena a cualquier objeción. Pasamos del dogma bíblico al dogma de "El Método Científico". Salimos de una cueva y entramos en otra. Muy poca gente, muy pocos científicos pueden estar realmente fuera de la caverna. Dudas, dudas.
+
+Y en estos temas la gente obvia el asunto de Dios. Asunto para nada cerrado. No como un Dios personalista, que juzga a la gente, pero ¿y como un estado ideal de perfección? Pero antes tenemos que definir la perfección. ¿O es Dios acaso otra cosa? Dudas, dudas.
+
+¿Qué opináis? Me encantará oír vuestras opiniones al respecto y por supuesto, sois libres de criticarme. Intentaré desarrollar cada punto por separado, porque es extenso, de momento dejamos el asunto planteado.
+
