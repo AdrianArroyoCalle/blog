@@ -1,8 +1,8 @@
 ---
 layout: post
 title: ¿Qué ocurrirá con Bitcoin y los ordenadores cuánticos?
-description:
-date:
+description: La irrupción de los ordenadores cuánticos pueden suponer un grave problema para la red Bitcoin y Ethereum.
+date: "2016-05-07 16:40:00"
 keywords:
  - programacion
  - bitcoin
