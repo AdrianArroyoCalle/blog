@@ -14,6 +14,7 @@ keywords:
  - programacion
  - javascript
  - ludumdare
+ - ascensor
 ---
 
 __The Everything Building__ es un juego que fue presentado al Ludum Dare 34. Ludum Dare es una game jam, la más popular quizá. Se trata de hacer un juego en 72 horas. Normalmente hay un tema para el juego y si te ciñes a él podrás optar a ganar en más categorías. El tema de esta vez fue "Two game controls" (dos controles). The Everything Building quedó segundo en la general aunque en la categoría de diversión ganó.
