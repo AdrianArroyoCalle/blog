@@ -28,7 +28,7 @@ En el apartado técnico no hay ningún reproche, es ligero, tiene un diseño pix
 En definitiva, jugadlo, es de lo mejorcito que he visto en HTML5.
 
 
-<iframe src="ttp://oletus.github.io/elevator/" id="elevator" width="300" height="600" allowfullscreen onclick="document.getElementById('elevator').focus();">
+<iframe src="http://oletus.github.io/elevator/" id="elevator" width="300" height="600" allowfullscreen onclick="document.getElementById('elevator').focus();">
 </iframe>
 
 Mis felicitaciones a Olli Ethuaho, Kimmo Keskinen, Sakari Leppä, Valtteri Heinonen y Anastasia Diatlova. El código está en GitHub: [https://github.com/Oletus/elevator](https://github.com/Oletus/elevator)
