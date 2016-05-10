@@ -2,7 +2,7 @@
 layout: post
 title: Crónica de una muerte anunciada
 description: Os recomiendo leer Crónica de una muerte anunciada
-date: "2016-05-11 12:00:00"
+date: "2099-05-11 12:00:00"
 keywords:
  - literatura
  - libro

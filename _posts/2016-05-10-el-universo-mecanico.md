@@ -2,7 +2,7 @@
 layout: post
 title: El Universo Mecánico
 description: Excelente serie documental sobre física.
-date: "2016-05-13 12:00:00"
+date: "2016-05-10 20:05:00"
 keywords:
  - ciencia
  - fisica
