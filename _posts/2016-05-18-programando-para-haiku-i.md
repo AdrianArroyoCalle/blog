@@ -37,7 +37,7 @@ int main(int argc, char** argv)
     return app.Run();
 }
 
-{% endhighlight % }
+{% endhighlight %}
 
 Hemos creado un objeto llamado app del tipo AplicacionPrueba y después hemos ejecutado la aplicación. AplicacionPrueba tiene que ser del tipo BApplication. Es la clase básica de todas las aplicaciones Haiku/BeOS. BApplication provee de mensajería entre los distintos procesos del programa (hay que tener en cuenta que BeOS se diseñó pensando en el multiproceso). Vamos a ver como definimos AplicacionPrueba
 
@@ -54,7 +54,7 @@ class AplicacionPrueba : public BApplication {
         }
 };
 
-{% endhighlight % }
+{% endhighlight %}
 
 Las __Application__ necesitan un MIME type, al igual que se usa para indicar los tipos de archivo. No es necesario que sea real. Además hemos creado un objeto VentanaPrueba y la mostramos. VentanaPrueba es del tipo __BWindow__ y es la ventana básica de Haiku, lo que vemos. Veamos la definición:
 
@@ -77,7 +77,7 @@ class VentanaPrueba : public BWindow{
         }
 };
 
-{% endhighlight % }
+{% endhighlight %}
 
 __BWindow__ necesita un tamaño, que es indicado con BRect, un título, un estilo (por defecto es B_TITLED_WINDOW, pero podemos tener ventanas sin bordes o modal) y opciones varias. En las opciones varias podemos especificar que al cerrar la ventana se cierre la aplicación (B_QUIT_ON_WINDOW_CLOSE), que el usuario no pueda cambiar su tamaño (B_NOT_RESIZABLE), que no se pueda minimizar (B_NOT_MINIMIZABLE) y otras opciones por el estilo.
 
@@ -114,7 +114,7 @@ VentanaPrueba() : BWindow(BRect(100,100,900,700),"Mi ventana", B_TITLED_WINDOW,0
          AddChild(panel);
         }
         
-{% endhighlight % }
+{% endhighlight %}
 
 Aquí hemos hecho varias cosas. Por una parte he creado un layout horizontal. Es decir, dispongo el espacio de la ventana de manera horizontal, según se vayan añadiendo elementos lo harán a la derecha. Esto no estaba en BeOS y es particular de Haiku, pero recomiendo usar este sistema pues permite realizar un __responsive design__. Creamos una vista o panel. __Bounds()__ indica que cubra todo el espacio disponible. El resto son propiedades de la vista más o menos estándar. Con SetViewColor le podemos poner un color de fondo, y con SetLayout le aplicamos el layout previamente creado.
 
@@ -139,13 +139,13 @@ BButton* boton = new BButton("Hola mundo",msg);
 
 ...
 
-{% endhighlight % }
+{% endhighlight %}
 
 Pero los mensajes pueden llevar información adicional de cualquier tipo. Por ejemplo si queremos añadir además una cadena de texto al mensaje usaremos __AddString__.
 
 {% highlight cpp %}
 msg->AddString("NombrePropiedad","ValorPropiedad");
-{% endhighlight % }
+{% endhighlight %}
 
 Podremos recuperar el valor en cualquier momento con __FindString__.
 
@@ -163,7 +163,7 @@ Ahora si vamos a __MessageReceived__ podemos añadir código que gestione este t
                 	BWindow::MessageReceived(msg);
             }
         }
-{% endhighlight % }
+{% endhighlight %}
         
 Con un simple case gestionamos el mensaje. Para mostrar un diálogo simple se puede usar __BAlert__. Es muy simple, indicamos el título, el contenido del mensaje y el texto del botón que aparecerá. Y con __Go__ lo mostramos. 
 
@@ -225,5 +225,5 @@ int main(int argc, char** argv)
 	AplicacionPrueba app;
     return app.Run();
 }
-{% endhighlight % }
+{% endhighlight %}
 
