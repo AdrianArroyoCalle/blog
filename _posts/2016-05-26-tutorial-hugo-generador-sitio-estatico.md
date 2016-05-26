@@ -145,6 +145,7 @@ Dentro de cada layout (como en _default) tiene que haber mínimo dos archivos. U
 Estos archivos han de programarse usando el motor de plantillas de Go y la API de Hugo. Un archivo `single.html` básico que muestra el título y el contenido tal cual sería así.
 
 ```
+{% raw %}
 {{ partial "header.html" . }}
 {{ partial "subheader.html" . }}
 <section id="main">
@@ -156,6 +157,7 @@ Estos archivos han de programarse usando el motor de plantillas de Go y la API d
   </div>
 </section>
 {{ partial "footer.html" . }}
+{% endraw %}
 ```
 
 Dentro de las páginas list.html es práctica habitual definir una vista `li.html` como un elemento individual. Esos elementos individuales se unen para formar la lista en `list.html`.
