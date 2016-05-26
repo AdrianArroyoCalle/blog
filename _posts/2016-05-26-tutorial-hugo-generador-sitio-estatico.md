@@ -2,7 +2,7 @@
 layout: post
 title: Tutorial de Hugo en español, generador de sitios estáticos
 description: "Jekyll, Hexo, Pelican... Hay muchos generadores, pero el mejor es Hugo. Crea tu sitio web con el mejor generador de sitios estáticos"
-date: "2016-05-06 12:22:00"
+date: "2016-05-26 12:22:00"
 keywords:
  - programacion
  - blogstack
